@@ -4,6 +4,21 @@
 
 An authorization-free public subset of P54 modem frequency metadata migration specifically for the **SoftBank Air 6 (软银 Air6 / A775)** home router, using the Quectel RG620T-SBK modem. No device-bound licensing logic, fingerprint implementation, authorization hooks, issuer keys, vendor signing SDK/tool, signer executable or ready-to-flash release package is included.
 
+## Band unlocking / expansion targets
+
+This project migrates P54 modem band metadata for **SoftBank Air 6 (A775)**. The target set contains **12 LTE bands + 13 NR bands: 25 RAT-specific band entries**:
+
+| RAT | Count | Target bands |
+| --- | --- | --- |
+| LTE / 4G | 12 | B1, B3, B5, B7, B8, B20, B28, B38, B40, B41, B42, B43 |
+| NR / 5G | 13 | n1, n3, n5, n7, n8, n20, n28, n38, n40, n41, n77, n78, n79 |
+
+“Unlocking” here means migrating and expanding permitted band metadata. It does not mean removing a SIM/operator network lock or implementing device-bound licensing. LTE B1 and NR n1 are counted separately. These 25 entries do not imply simultaneous operation or 25-carrier aggregation.
+
+The public version excludes device-bound licensing and authorization hooks; building requires no fingerprint or unlock code. Run `python3 test.py` as documented below to produce and check `build/modem-unsigned.img`. The result still requires independent vendor signing and hardware validation; it is not a signed package accepted by the web updater.
+
+This is a migration target list, not a claim that every band has passed RF/network testing. Availability depends on board RF hardware, calibration, antennas, SIM, coverage and applicable local requirements. The n78 screenshots show the private reference version; this public authorization-free experiment has not been device validated. **CA remains unsupported.** Contact the maintainer through Issues for assistance signing candidate modem images; tools and private keys remain private.
+
 ## CA is not supported yet — contributors welcome
 
 **Carrier aggregation (CA) is currently unsupported in this public experiment; no CA combination is promised to work.** Preserving original CA metadata does not establish implemented, enabled or network-validated CA behavior.
