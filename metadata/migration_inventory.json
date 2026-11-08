@@ -1,0 +1,2860 @@
+{
+  "source_sha256": "6b6fbd2bae4dc073e60db1837f5b181a7f8a0b3d6c0c278de7cd91c057d31944",
+  "version": "V26.4.P54",
+  "previous_version": "V26.4.P28.1",
+  "sections": {
+    "md1rom": {
+      "old_bytes": 35904340,
+      "new_bytes": 35916692,
+      "same": false
+    },
+    "md1drdi": {
+      "old_bytes": 823776,
+      "new_bytes": 821024,
+      "same": false
+    }
+  },
+  "EU_patches": [
+    {
+      "old_offset": "0x11a6f4c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 6,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x11a70d2",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 6,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x11b9ebc",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 6,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x11bd620",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 6,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x1de3e18",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 80,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x1de6f28"
+    },
+    {
+      "old_offset": "0x1dfb754",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 160,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x1dfe864"
+    },
+    {
+      "old_offset": "0x1ef1aac",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 2,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x1ef4bac"
+    },
+    {
+      "old_offset": "0x20012c0",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 8,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x20012ca",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 2,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x20012cd",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 1,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2054b18",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 90,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2057c60"
+    },
+    {
+      "old_offset": "0x2054b7e",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 90,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x215392c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 64,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x215692c"
+    },
+    {
+      "old_offset": "0x215412c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 64,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x215492c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 64,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2160614",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1rom",
+      "bytes": 8,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2163614"
+    },
+    {
+      "old_offset": "0x2252464",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22526ae",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 110,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22530f8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 44,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22535d8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 378,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2254a34",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 52,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2254e34",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 21080,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a80c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a828",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a844",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a860",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a87c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a898",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a8b4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a8d0",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a8ec",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a908",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a924",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a940",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a95c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a978",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a994",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a9b0",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a9cc",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225a9e8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225aa04",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225aa20",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225aa3c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225aa88",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 148,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225c824",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225ca6e",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 110,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225d4b8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 44,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225d998",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 378,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225edf4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 52,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x225f1f4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 21080,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264bcc",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264be8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264c04",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264c20",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264c3c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264c58",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264c74",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264c90",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264cac",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264cc8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264ce4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264d00",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264d1c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264d38",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264d54",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264d70",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264d8c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264da8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264dc4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264de0",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264dfc",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2264e48",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 148,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2265b88",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 216,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2268bc8"
+    },
+    {
+      "old_offset": "0x2265c68",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 268,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2268ca8"
+    },
+    {
+      "old_offset": "0x2266100",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 128,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269140"
+    },
+    {
+      "old_offset": "0x2266184",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22691c4"
+    },
+    {
+      "old_offset": "0x2266194",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22691d4"
+    },
+    {
+      "old_offset": "0x22661a4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22691e4"
+    },
+    {
+      "old_offset": "0x22661b4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22691f4"
+    },
+    {
+      "old_offset": "0x22661c4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269204"
+    },
+    {
+      "old_offset": "0x22661d4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269214"
+    },
+    {
+      "old_offset": "0x22661e4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269224"
+    },
+    {
+      "old_offset": "0x22661f4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269234"
+    },
+    {
+      "old_offset": "0x2266204",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269244"
+    },
+    {
+      "old_offset": "0x2266214",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269254"
+    },
+    {
+      "old_offset": "0x2266224",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269264"
+    },
+    {
+      "old_offset": "0x2266234",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269274"
+    },
+    {
+      "old_offset": "0x2266244",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269284"
+    },
+    {
+      "old_offset": "0x2266254",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269294"
+    },
+    {
+      "old_offset": "0x2266264",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22692a4"
+    },
+    {
+      "old_offset": "0x2266274",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22692b4"
+    },
+    {
+      "old_offset": "0x2266284",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22692c4"
+    },
+    {
+      "old_offset": "0x2266294",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22692d4"
+    },
+    {
+      "old_offset": "0x22662a4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22692e4"
+    },
+    {
+      "old_offset": "0x22662b4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22692f4"
+    },
+    {
+      "old_offset": "0x22662c4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269304"
+    },
+    {
+      "old_offset": "0x22662d4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269314"
+    },
+    {
+      "old_offset": "0x22662e4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269324"
+    },
+    {
+      "old_offset": "0x22662f4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269334"
+    },
+    {
+      "old_offset": "0x2266304",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269344"
+    },
+    {
+      "old_offset": "0x2266314",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269354"
+    },
+    {
+      "old_offset": "0x2266324",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269364"
+    },
+    {
+      "old_offset": "0x2266334",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269374"
+    },
+    {
+      "old_offset": "0x2266344",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269384"
+    },
+    {
+      "old_offset": "0x2266354",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269394"
+    },
+    {
+      "old_offset": "0x2266364",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22693a4"
+    },
+    {
+      "old_offset": "0x2266374",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22693b4"
+    },
+    {
+      "old_offset": "0x2266384",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22693c4"
+    },
+    {
+      "old_offset": "0x2266394",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22693d4"
+    },
+    {
+      "old_offset": "0x22663a4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22693e4"
+    },
+    {
+      "old_offset": "0x22663b4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22693f4"
+    },
+    {
+      "old_offset": "0x22663c4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269404"
+    },
+    {
+      "old_offset": "0x22663d4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269414"
+    },
+    {
+      "old_offset": "0x22663e4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269424"
+    },
+    {
+      "old_offset": "0x22663f4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269434"
+    },
+    {
+      "old_offset": "0x2266404",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269444"
+    },
+    {
+      "old_offset": "0x2266414",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269454"
+    },
+    {
+      "old_offset": "0x2266424",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269464"
+    },
+    {
+      "old_offset": "0x2266434",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269474"
+    },
+    {
+      "old_offset": "0x2266444",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269484"
+    },
+    {
+      "old_offset": "0x2266454",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269494"
+    },
+    {
+      "old_offset": "0x2266464",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22694a4"
+    },
+    {
+      "old_offset": "0x2266474",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22694b4"
+    },
+    {
+      "old_offset": "0x2266484",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22694c4"
+    },
+    {
+      "old_offset": "0x2266494",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22694d4"
+    },
+    {
+      "old_offset": "0x22664a4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22694e4"
+    },
+    {
+      "old_offset": "0x22664b4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22694f4"
+    },
+    {
+      "old_offset": "0x22664c4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269504"
+    },
+    {
+      "old_offset": "0x22664d4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269514"
+    },
+    {
+      "old_offset": "0x22664e4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269524"
+    },
+    {
+      "old_offset": "0x22664f4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269534"
+    },
+    {
+      "old_offset": "0x2266504",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269544"
+    },
+    {
+      "old_offset": "0x2266510",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 128,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2269550"
+    },
+    {
+      "old_offset": "0x2267d50",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 744,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x226ad90"
+    },
+    {
+      "old_offset": "0x2268060",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x226b0a0"
+    },
+    {
+      "old_offset": "0x2268070",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 24,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2268090",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 16,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22680b8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 24,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22680e0",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22680f0",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 32,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2268130",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2268148",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2268168",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2268180",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2268284",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x226b2c4"
+    },
+    {
+      "old_offset": "0x226828c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 52,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x226b2cc"
+    },
+    {
+      "old_offset": "0x226a4d8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x226d518"
+    },
+    {
+      "old_offset": "0x226a4f0",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x226d530"
+    },
+    {
+      "old_offset": "0x226a60e",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 110,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x226a83c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 32,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x226d87c"
+    },
+    {
+      "old_offset": "0x226ab86",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 336,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x226b304",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 32,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x226e344"
+    },
+    {
+      "old_offset": "0x2285920",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 2672,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x228850c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 6776,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x228a5a8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 1364,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x228b050",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 1364,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x228baf8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 1364,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x228c928",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 452,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x228ccb0",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 452,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x228d03c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x229007c"
+    },
+    {
+      "old_offset": "0x228d048",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x2290088"
+    },
+    {
+      "old_offset": "0x2298280",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 264,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x229b2c0"
+    },
+    {
+      "old_offset": "0x2298538",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x229b578"
+    },
+    {
+      "old_offset": "0x22985f4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 264,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x229b634"
+    },
+    {
+      "old_offset": "0x22987e8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 212,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x229b828"
+    },
+    {
+      "old_offset": "0x22988c4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 260,
+      "same_offset_matches": true,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x229b904"
+    },
+    {
+      "old_offset": "0x2298d34",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 128,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298db8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298dc8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298dd8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298de8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298df8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298e08",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298e18",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298e28",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298e38",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298e48",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298e58",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298e68",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298e78",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298e88",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298e98",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298ea8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298eb8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298ec8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298ed8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298ee8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298ef8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298f08",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298f18",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298f28",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298f38",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298f48",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298f58",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298f68",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298f78",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298f88",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298f98",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298fa8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298fb8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298fc8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298fd8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298fe8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2298ff8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2299008",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2299018",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2299028",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2299038",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2299048",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2299058",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2299068",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2299078",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2299088",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2299098",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22990a8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22990b8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22990c8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22990d8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22990e8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22990f8",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2299108",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2299118",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x2299124",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 128,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229ab74",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 744,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229ae84",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229ae94",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 24,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229aeb4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 16,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229aedc",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 24,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229af04",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229af14",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 32,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229af54",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229af6c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229af8c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229afa4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229b0a4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229b0ac",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 52,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229d2f4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229d30c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229d42a",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 110,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229d658",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 32,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229d9a2",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 336,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x229e120",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 32,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22b8580",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 2672,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22bb16c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 6776,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22bd3c4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 1364,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22bde6c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 1364,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22be914",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 1364,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22bf744",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 452,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22bfacc",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 452,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22bfe58",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": true,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22bfe64",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22ca4f4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 256,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22ca824",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 256,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22d41a0",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 16,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22dc974",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 6,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22deef4"
+    },
+    {
+      "old_offset": "0x22dc97c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22deefc"
+    },
+    {
+      "old_offset": "0x22dc984",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 10,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22def04"
+    },
+    {
+      "old_offset": "0x22dc990",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 12,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22def10"
+    },
+    {
+      "old_offset": "0x22df3e4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22e1964"
+    },
+    {
+      "old_offset": "0x22df3f4",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 20,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22e1974"
+    },
+    {
+      "old_offset": "0x22df40c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22e198c"
+    },
+    {
+      "old_offset": "0x22e25dc",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 16,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22e4b5c"
+    },
+    {
+      "old_offset": "0x22f1d80",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 16,
+      "same_offset_matches": false,
+      "unique_32byte_context": false,
+      "new_file_offset": null
+    },
+    {
+      "old_offset": "0x22fa554",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 6,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22fcad4"
+    },
+    {
+      "old_offset": "0x22fa55c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 4,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22fcadc"
+    },
+    {
+      "old_offset": "0x22fa564",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 10,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22fcae4"
+    },
+    {
+      "old_offset": "0x22fa570",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 12,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22fcaf0"
+    },
+    {
+      "old_offset": "0x22fd154",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22ff6d4"
+    },
+    {
+      "old_offset": "0x22fd164",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 20,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22ff6e4"
+    },
+    {
+      "old_offset": "0x22fd17c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 8,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x22ff6fc"
+    },
+    {
+      "old_offset": "0x230008c",
+      "label": "EU base with NR bucket-order/parallel ANT fix",
+      "section": "md1drdi",
+      "bytes": 16,
+      "same_offset_matches": false,
+      "unique_32byte_context": true,
+      "new_file_offset": "0x230260c"
+    }
+  ],
+  "native_absolute_references": [
+    {
+      "source": "air6band_firmware\\air6_firmware.c",
+      "old_address": "0x903941d6",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\air6_firmware.c",
+      "old_address": "0x90d674ae",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\air6_firmware.c",
+      "old_address": "0x90d674e6",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\air6_firmware.c",
+      "old_address": "0x90d67560",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\native_bridges.S",
+      "old_address": "0x90cd1b8a",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\native_runtime.c",
+      "old_address": "0x901acef8",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\native_runtime.c",
+      "old_address": "0x901b58f6",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\native_runtime.c",
+      "old_address": "0x901e9444",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\native_runtime.c",
+      "old_address": "0x90c60eb6",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\native_runtime.c",
+      "old_address": "0x91150042",
+      "exact_32byte_prefix_unique": true,
+      "new_address": "0x911517a2",
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\native_runtime.c",
+      "old_address": "0x911504c4",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\native_runtime.c",
+      "old_address": "0x911543ea",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\native_runtime.c",
+      "old_address": "0x9115447e",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\native_runtime.c",
+      "old_address": "0x91156560",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\native_runtime.c",
+      "old_address": "0x911653e2",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\native_runtime.c",
+      "old_address": "0x91165e0c",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\native_runtime.c",
+      "old_address": "0x91b63b9a",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_firmware\\native_runtime.c",
+      "old_address": "0x91c5e154",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\invalid_args_harness.c",
+      "old_address": "0x916e88d2",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\invalid_args_harness.c",
+      "old_address": "0x916ec076",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\invalid_args_harness.c",
+      "old_address": "0x916ec124",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scan_body_bridge.S",
+      "old_address": "0x90ca8a40",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scan_bridge.S",
+      "old_address": "0x90ca8a40",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scsi_body_bridges.S",
+      "old_address": "0x916e88d6",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scsi_body_bridges.S",
+      "old_address": "0x916e88f4",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scsi_body_bridges.S",
+      "old_address": "0x916ec07a",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scsi_body_bridges.S",
+      "old_address": "0x916ec098",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scsi_body_bridges.S",
+      "old_address": "0x916ec12c",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scsi_body_bridges.S",
+      "old_address": "0x916ec14e",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scsi_body_bridges.S",
+      "old_address": "0x916ec162",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scsi_harness.c",
+      "old_address": "0x916e88d2",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scsi_harness.c",
+      "old_address": "0x916ec076",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scsi_harness.c",
+      "old_address": "0x916ec124",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scsi_leaf_clone.S",
+      "old_address": "0x9003486a",
+      "exact_32byte_prefix_unique": true,
+      "new_address": "0x9003486a",
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scsi_leaf_clone.S",
+      "old_address": "0x916e88d6",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scsi_leaf_clone.S",
+      "old_address": "0x916ec07a",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scsi_leaf_clone.S",
+      "old_address": "0x916ec12c",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_hooks\\scsi_leaf_clone.S",
+      "old_address": "0x916ec14e",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_storage\\p28_storage_adapter.c",
+      "old_address": "0x9021f9ae",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_storage\\p28_storage_adapter.c",
+      "old_address": "0x9021fb1a",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_storage\\p28_storage_adapter.c",
+      "old_address": "0x911a07cc",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_storage\\p28_storage_adapter.c",
+      "old_address": "0x911a08ca",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_storage\\p28_storage_adapter.c",
+      "old_address": "0x911a0e3c",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_license_native\\p28_crypto_adapter.c",
+      "old_address": "0x90000000",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_license_native\\p28_crypto_adapter.c",
+      "old_address": "0x903176f6",
+      "exact_32byte_prefix_unique": true,
+      "new_address": "0x90317e92",
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_license_native\\p28_crypto_adapter.c",
+      "old_address": "0x90349d58",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_license_native\\p28_crypto_adapter.c",
+      "old_address": "0x90349dae",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_license_native\\p28_crypto_adapter.c",
+      "old_address": "0x90349e54",
+      "exact_32byte_prefix_unique": true,
+      "new_address": "0x9034a5f0",
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_license_native\\p28_crypto_adapter.c",
+      "old_address": "0x9179b29e",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_license_native\\probe_l5_wrapper.c",
+      "old_address": "0x903941d6",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_license_native\\probe_l5_wrapper.c",
+      "old_address": "0x90d674ae",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_license_native\\probe_l5_wrapper.c",
+      "old_address": "0x90d674e6",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_license_native\\probe_l5_wrapper.c",
+      "old_address": "0x90d67560",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_license_native\\probe_native.c",
+      "old_address": "0x9021d7a6",
+      "exact_32byte_prefix_unique": false,
+      "new_address": null,
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_license_native\\probe_native.c",
+      "old_address": "0x903a6aac",
+      "exact_32byte_prefix_unique": true,
+      "new_address": "0x903a7efc",
+      "ABI_verified": false
+    },
+    {
+      "source": "air6band_license_native\\probe_native.c",
+      "old_address": "0x91b89eb0",
+      "exact_32byte_prefix_unique": true,
+      "new_address": "0x91b8ceb0",
+      "ABI_verified": false
+    }
+  ],
+  "summary": {
+    "EU_patches": 271,
+    "unique_context_matches": 98,
+    "unresolved_patches": 173,
+    "native_refs": 56,
+    "status": "INVENTORY_ONLY_NOT_FLASH_ELIGIBLE",
+    "limits": "Matching bytes or unique prefix do not establish ABI, pointer relocation, RF/calibration compatibility or runtime acceptance."
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "status": "BOUNDED_DIRECT_REFERENCE_SCAN_PASS_NOT_RUNTIME_PROOF",
+  "same_bc_old_bytes": 65,
+  "same_bc_new_bytes": 74,
+  "old_same_bc": "0x26c22e60",
+  "new_same_bc": "0x6ad4c000",
+  "old_mapping": "0x26c22ea4",
+  "new_mapping": "0x6ad4c100",
+  "old_mapping_bytes": 130,
+  "new_mapping_bytes": 148,
+  "all_references": [
+    {
+      "file": "0x11a851c",
+      "native": "0x911a831c",
+      "target": "0x26c22e60",
+      "new_target": "0x6ad4c000",
+      "old": "e3603eaba795",
+      "new": "e360de3cbad9"
+    },
+    {
+      "file": "0x11a8668",
+      "native": "0x911a8468",
+      "target": "0x26c22e60",
+      "new_target": "0x6ad4c000",
+      "old": "8360f2a9a795",
+      "new": "8360923bbad9"
+    },
+    {
+      "file": "0x11a86ac",
+      "native": "0x911a84ac",
+      "target": "0x26c22ea4",
+      "new_target": "0x6ad4c100",
+      "old": "8360f2a9a795",
+      "new": "83604e3cbad9"
+    },
+    {
+      "file": "0x11a881e",
+      "native": "0x911a861e",
+      "target": "0x26c22e60",
+      "new_target": "0x6ad4c000",
+      "old": "83603ca8a795",
+      "new": "8360dc39bad9"
+    },
+    {
+      "file": "0x11a8830",
+      "native": "0x911a8630",
+      "target": "0x26c22ea4",
+      "new_target": "0x6ad4c100",
+      "old": "a3606ea8a795",
+      "new": "a360ca3abad9"
+    },
+    {
+      "file": "0x11bc4ec",
+      "native": "0x911bc2ec",
+      "target": "0x26c22ea4",
+      "new_target": "0x6ad4c100",
+      "old": "c360b26ba695",
+      "new": "c3600efeb8d9"
+    },
+    {
+      "file": "0x11bc5f8",
+      "native": "0x911bc3f8",
+      "target": "0x26c22e60",
+      "new_target": "0x6ad4c000",
+      "old": "e360626aa695",
+      "new": "e36002fcb8d9"
+    },
+    {
+      "file": "0x11bfc72",
+      "native": "0x911bfa72",
+      "target": "0x26c22ea4",
+      "new_target": "0x6ad4c100",
+      "old": "c3602c34a695",
+      "new": "c36088c6b8d9"
+    },
+    {
+      "file": "0x11bfc9a",
+      "native": "0x911bfa9a",
+      "target": "0x26c22e60",
+      "new_target": "0x6ad4c000",
+      "old": "c360c033a695",
+      "new": "c36060c5b8d9"
+    }
+  ],
+  "mapping_references": [
+    {
+      "file": "0x11a851c",
+      "native": "0x911a831c",
+      "target": "0x26c22e60",
+      "new_target": "0x6ad4c000",
+      "old": "e3603eaba795",
+      "new": "e360de3cbad9"
+    },
+    {
+      "file": "0x11a8668",
+      "native": "0x911a8468",
+      "target": "0x26c22e60",
+      "new_target": "0x6ad4c000",
+      "old": "8360f2a9a795",
+      "new": "8360923bbad9"
+    },
+    {
+      "file": "0x11a86ac",
+      "native": "0x911a84ac",
+      "target": "0x26c22ea4",
+      "new_target": "0x6ad4c100",
+      "old": "8360f2a9a795",
+      "new": "83604e3cbad9"
+    },
+    {
+      "file": "0x11a881e",
+      "native": "0x911a861e",
+      "target": "0x26c22e60",
+      "new_target": "0x6ad4c000",
+      "old": "83603ca8a795",
+      "new": "8360dc39bad9"
+    },
+    {
+      "file": "0x11a8830",
+      "native": "0x911a8630",
+      "target": "0x26c22ea4",
+      "new_target": "0x6ad4c100",
+      "old": "a3606ea8a795",
+      "new": "a360ca3abad9"
+    },
+    {
+      "file": "0x11bc4ec",
+      "native": "0x911bc2ec",
+      "target": "0x26c22ea4",
+      "new_target": "0x6ad4c100",
+      "old": "c360b26ba695",
+      "new": "c3600efeb8d9"
+    },
+    {
+      "file": "0x11bc5f8",
+      "native": "0x911bc3f8",
+      "target": "0x26c22e60",
+      "new_target": "0x6ad4c000",
+      "old": "e360626aa695",
+      "new": "e36002fcb8d9"
+    },
+    {
+      "file": "0x11bfc72",
+      "native": "0x911bfa72",
+      "target": "0x26c22ea4",
+      "new_target": "0x6ad4c100",
+      "old": "c3602c34a695",
+      "new": "c36088c6b8d9"
+    },
+    {
+      "file": "0x11bfc9a",
+      "native": "0x911bfa9a",
+      "target": "0x26c22e60",
+      "new_target": "0x6ad4c000",
+      "old": "c360c033a695",
+      "new": "c36060c5b8d9"
+    }
+  ],
+  "other_forms": [],
+  "literal32_all_byte_alignments": [],
+  "MAXCOMB_loads": [
+    {
+      "base_file": "0x11a8672",
+      "file": "0x11a8676",
+      "bytes": "e5e01ec047861262"
+    },
+    {
+      "base_file": "0x11a8a52",
+      "file": "0x11a8a56",
+      "bytes": "e5e01ec0e7841262"
+    },
+    {
+      "base_file": "0x11a97f8",
+      "file": "0x11a97fc",
+      "bytes": "c5e01eb0c6841262"
+    },
+    {
+      "base_file": "0x11a98b0",
+      "file": "0x11a98b8",
+      "bytes": "85e01eb0b474e73484841262"
+    }
+  ],
+  "reserved_RAM": "0x6ad40000..0x6ad50000",
+  "license_state": "0x6ad40000..0x6ad41000",
+  "same_bc": "0x6ad4c000..0x6ad4c04a",
+  "mapping": "0x6ad4c100..0x6ad4c194",
+  "limits": [
+    "Shape scans can match data; Ghidra must verify original and patched encodings",
+    "Bounded ALUIPC window128B, ADDIUPC32/48 and full literal32 scan do not exhaust arbitrary computed/GP references",
+    "Relocated arrays must be initialized by original CAP init before any reader; hardware execution pending"
+  ],
+  "Ghidra_original_and_relocated_encoding": "18/18 PASS"
+}

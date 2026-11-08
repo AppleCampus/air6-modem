@@ -1,0 +1,3320 @@
+{
+  "status": "OFFLINE_METADATA_PLAN_AUDITED_FULL_P54_NODE_PRESERVATION",
+  "source_sha256": "ce8954b711c22133731ca1d9ecd111745c54313e06a8c6cb80fbe823362f9cb5",
+  "bands": [
+    1,
+    3,
+    5,
+    7,
+    8,
+    20,
+    28,
+    38,
+    40,
+    41,
+    77,
+    78,
+    79
+  ],
+  "required_companions": "V2 MAXCOMB74 reserved-RAM relocation, all parallel vectors, regenerated groups, and P54-specific hooks; do not apply a cap13_limit_plan66 companion.",
+  "scope": "Preserve every original P54 node and append nine additional EU25 singles; expand MAXCOMB to74.",
+  "limitations": [
+    "n1 retains at-most20MHz tested restriction",
+    "New FDD/TDD SRS/HPUE rows inherit original n3/n77 defaults and require runtime validation",
+    "Per-CA NVRAM overrides require independent migration if present",
+    "Protocol single-band node header retains original product format rather than SDKproduct flags",
+    "RF and calibration feasibility of each new band is outside this metadata proposal"
+  ],
+  "plans": [
+    {
+      "profile": 0,
+      "bands": [
+        1,
+        3,
+        5,
+        7,
+        8,
+        20,
+        28,
+        38,
+        40,
+        41,
+        77,
+        78,
+        79
+      ],
+      "original_nodes": 65,
+      "new_nodes": 74,
+      "removed_original_ca_indices": [],
+      "removed_CA": [],
+      "reused_storage_inbound_proof": [
+        {
+          "index": 57,
+          "node_file": "0x2266100",
+          "info_file": "0x2266510",
+          "active_node_refs": [
+            "0x2265d4c"
+          ],
+          "active_info_refs": [
+            "0x226610c"
+          ],
+          "full_image_overlay_collisions": []
+        },
+        {
+          "index": 58,
+          "node_file": "0x2266110",
+          "info_file": "0x2266520",
+          "active_node_refs": [
+            "0x2265d50"
+          ],
+          "active_info_refs": [
+            "0x226611c"
+          ],
+          "full_image_overlay_collisions": []
+        },
+        {
+          "index": 59,
+          "node_file": "0x2266120",
+          "info_file": "0x2266530",
+          "active_node_refs": [
+            "0x2265d54"
+          ],
+          "active_info_refs": [
+            "0x226612c"
+          ],
+          "full_image_overlay_collisions": []
+        },
+        {
+          "index": 60,
+          "node_file": "0x2266130",
+          "info_file": "0x2266540",
+          "active_node_refs": [
+            "0x2265d58"
+          ],
+          "active_info_refs": [
+            "0x226613c"
+          ],
+          "full_image_overlay_collisions": []
+        },
+        {
+          "index": 61,
+          "node_file": "0x2266140",
+          "info_file": "0x2266550",
+          "active_node_refs": [
+            "0x2265d5c"
+          ],
+          "active_info_refs": [
+            "0x226614c"
+          ],
+          "full_image_overlay_collisions": [
+            "0x2298e00"
+          ]
+        },
+        {
+          "index": 62,
+          "node_file": "0x2266150",
+          "info_file": "0x2266560",
+          "active_node_refs": [
+            "0x2265d60"
+          ],
+          "active_info_refs": [
+            "0x226615c"
+          ],
+          "full_image_overlay_collisions": []
+        },
+        {
+          "index": 63,
+          "node_file": "0x2266160",
+          "info_file": "0x2266570",
+          "active_node_refs": [
+            "0x2265d64"
+          ],
+          "active_info_refs": [
+            "0x226616c"
+          ],
+          "full_image_overlay_collisions": []
+        },
+        {
+          "index": 64,
+          "node_file": "0x2266170",
+          "info_file": "0x2266580",
+          "active_node_refs": [
+            "0x2265d68"
+          ],
+          "active_info_refs": [
+            "0x226617c"
+          ],
+          "full_image_overlay_collisions": [
+            "0x2298e80"
+          ]
+        }
+      ],
+      "relocated_ul_objects": [
+        {
+          "old_file": "0x22682bc",
+          "payload": "00060000",
+          "new_file": "0x226800c",
+          "full_image_refs": [
+            "0x2268284"
+          ]
+        }
+      ],
+      "reclaimed_old_CAP_for_HW": null,
+      "new_band_hw_mapping": [
+        {
+          "band": 1,
+          "sdk_hw": "000101",
+          "local_hw": "000101",
+          "DL": "01070000",
+          "UL": "01070000",
+          "source": "preserved mrdc7_plan.json",
+          "node_file": "0x2266100",
+          "info_file": "0x2266510",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f2c",
+              "CAP": "01000001",
+              "node_va": "0x6b284364",
+              "HW_va": "0x6b2ab3a4",
+              "HW": "000101",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 1,
+              "DL_object_va": "0x6b2b2240",
+              "DL": "01070000",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 1,
+              "UL_object_va": "0x6b2b21ec",
+              "UL": "00070000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b2160",
+              "CAP": "01000001",
+              "node_va": "0x6b2843a8",
+              "HW_va": "0x6b2ab548",
+              "HW": "000101",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 1,
+              "DL_object_va": "0x6b2b2474",
+              "DL": "01070000",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 1,
+              "UL_object_va": "0x6b2b2420",
+              "UL": "00070000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 5,
+          "sdk_hw": "000202",
+          "local_hw": "000c0b",
+          "DL": "01040000",
+          "UL": "00030000",
+          "source": "true-schema direct SDK[6, 12]",
+          "node_file": "0x2266110",
+          "info_file": "0x2266520",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f24",
+              "CAP": "05000001",
+              "node_va": "0x6b284384",
+              "HW_va": "0x6b2ab3a7",
+              "HW": "000202",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 2,
+              "DL_object_va": "0x6b2b223c",
+              "DL": "01040000",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 2,
+              "UL_object_va": "0x6b2b21e8",
+              "UL": "00030000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b2158",
+              "CAP": "05000001",
+              "node_va": "0x6b2843c8",
+              "HW_va": "0x6b2ab54b",
+              "HW": "000202",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 2,
+              "DL_object_va": "0x6b2b2470",
+              "DL": "01040000",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 2,
+              "UL_object_va": "0x6b2b241c",
+              "UL": "00030000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 7,
+          "sdk_hw": "000101",
+          "local_hw": "000701",
+          "DL": "01070000",
+          "UL": "00070000",
+          "source": "true-schema direct SDK[6, 12]",
+          "node_file": "0x2266120",
+          "info_file": "0x2266530",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f20",
+              "CAP": "07000001",
+              "node_va": "0x6b284394",
+              "HW_va": "0x6b2ab3a4",
+              "HW": "000101",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 1,
+              "DL_object_va": "0x6b2b2240",
+              "DL": "01070000",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 1,
+              "UL_object_va": "0x6b2b21ec",
+              "UL": "00070000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b2154",
+              "CAP": "07000001",
+              "node_va": "0x6b2843d8",
+              "HW_va": "0x6b2ab548",
+              "HW": "000101",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 1,
+              "DL_object_va": "0x6b2b2474",
+              "DL": "01070000",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 1,
+              "UL_object_va": "0x6b2b2420",
+              "UL": "00070000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 8,
+          "sdk_hw": "000203",
+          "local_hw": "000b02",
+          "DL": "00050000",
+          "UL": "01060000",
+          "source": "preserved mrdc7_plan.json",
+          "node_file": "0x2266130",
+          "info_file": "0x2266540",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f1c",
+              "CAP": "08000001",
+              "node_va": "0x6b2843a4",
+              "HW_va": "0x6b2ab3aa",
+              "HW": "000203",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 3,
+              "DL_object_va": "0x6b2b2238",
+              "DL": "01030000",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 2,
+              "UL_object_va": "0x6b2b21e8",
+              "UL": "00030000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b2150",
+              "CAP": "08000001",
+              "node_va": "0x6b2843e8",
+              "HW_va": "0x6b2ab54e",
+              "HW": "000203",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 3,
+              "DL_object_va": "0x6b2b246c",
+              "DL": "01030000",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 2,
+              "UL_object_va": "0x6b2b241c",
+              "UL": "00030000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 20,
+          "sdk_hw": "000203",
+          "local_hw": "000c06",
+          "DL": "01030000",
+          "UL": "00030000",
+          "source": "true-schema direct SDK[6, 12]",
+          "node_file": "0x2266140",
+          "info_file": "0x2266550",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f18",
+              "CAP": "14000001",
+              "node_va": "0x6b2843b4",
+              "HW_va": "0x6b2ab3aa",
+              "HW": "000203",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 3,
+              "DL_object_va": "0x6b2b2238",
+              "DL": "01030000",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 2,
+              "UL_object_va": "0x6b2b21e8",
+              "UL": "00030000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b214c",
+              "CAP": "14000001",
+              "node_va": "0x6b2843f8",
+              "HW_va": "0x6b2ab54e",
+              "HW": "000203",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 3,
+              "DL_object_va": "0x6b2b246c",
+              "DL": "01030000",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 2,
+              "UL_object_va": "0x6b2b241c",
+              "UL": "00030000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 38,
+          "sdk_hw": "010405",
+          "local_hw": "010b08",
+          "DL": "01060000",
+          "UL": "01060000",
+          "source": "true-schema direct SDK[6, 12]",
+          "node_file": "0x2266150",
+          "info_file": "0x2266560",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f10",
+              "CAP": "26000101",
+              "node_va": "0x6b2843d4",
+              "HW_va": "0x6b2ab3b0",
+              "HW": "010405",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 5,
+              "DL_object_va": "0x6b2b2230",
+              "DL": "01060000",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 4,
+              "UL_object_va": "0x6b2b21e0",
+              "UL": "01060000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b2144",
+              "CAP": "26000101",
+              "node_va": "0x6b284418",
+              "HW_va": "0x6b2ab554",
+              "HW": "010405",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 5,
+              "DL_object_va": "0x6b2b2464",
+              "DL": "01060000",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 4,
+              "UL_object_va": "0x6b2b2414",
+              "UL": "01060000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 40,
+          "sdk_hw": "010506",
+          "local_hw": "010303",
+          "DL": "010a0100",
+          "UL": "010a0100",
+          "source": "true-schema direct SDK[6, 12]",
+          "node_file": "0x2266160",
+          "info_file": "0x2266570",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f0c",
+              "CAP": "28000101",
+              "node_va": "0x6b2843e4",
+              "HW_va": "0x6b2ab3b3",
+              "HW": "010506",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 6,
+              "DL_object_va": "0x6b2b222c",
+              "DL": "010a0100",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 5,
+              "UL_object_va": "0x6b2b21dc",
+              "UL": "010a0100",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b2140",
+              "CAP": "28000101",
+              "node_va": "0x6b284428",
+              "HW_va": "0x6b2ab557",
+              "HW": "010506",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 6,
+              "DL_object_va": "0x6b2b2460",
+              "DL": "010a0100",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 5,
+              "UL_object_va": "0x6b2b2410",
+              "UL": "010a0100",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 41,
+          "sdk_hw": "010506",
+          "local_hw": "010303",
+          "DL": "010a0100",
+          "UL": "010a0100",
+          "source": "true-schema direct SDK[6, 12]",
+          "node_file": "0x2266170",
+          "info_file": "0x2266580",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f08",
+              "CAP": "29000101",
+              "node_va": "0x6b2843f4",
+              "HW_va": "0x6b2ab3b3",
+              "HW": "010506",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 6,
+              "DL_object_va": "0x6b2b222c",
+              "DL": "010a0100",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 5,
+              "UL_object_va": "0x6b2b21dc",
+              "UL": "010a0100",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b213c",
+              "CAP": "29000101",
+              "node_va": "0x6b284438",
+              "HW_va": "0x6b2ab557",
+              "HW": "010506",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 6,
+              "DL_object_va": "0x6b2b2460",
+              "DL": "010a0100",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 5,
+              "UL_object_va": "0x6b2b2410",
+              "UL": "010a0100",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 78,
+          "sdk_hw": "010506",
+          "local_hw": "010303",
+          "DL": "010a0100",
+          "UL": "010a0100",
+          "source": "preserved mrdc7_plan.json",
+          "node_file": "0x2267f4c",
+          "info_file": "0x2267f5c",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f00",
+              "CAP": "4e000101",
+              "node_va": "0x6b284414",
+              "HW_va": "0x6b2ab3b3",
+              "HW": "010506",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 6,
+              "DL_object_va": "0x6b2b222c",
+              "DL": "010a0100",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 5,
+              "UL_object_va": "0x6b2b21dc",
+              "UL": "010a0100",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b2134",
+              "CAP": "4e000101",
+              "node_va": "0x6b284458",
+              "HW_va": "0x6b2ab557",
+              "HW": "010506",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 6,
+              "DL_object_va": "0x6b2b2460",
+              "DL": "010a0100",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 5,
+              "UL_object_va": "0x6b2b2410",
+              "UL": "010a0100",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        }
+      ],
+      "original_single_hw_unchanged": true,
+      "preserved_prior_plan_single_semantics": [
+        {
+          "band": 1,
+          "CAP": "01000101",
+          "HW": "000101",
+          "DL": "01070000",
+          "UL": "01070000"
+        },
+        {
+          "band": 3,
+          "CAP": "03000101",
+          "HW": "000101",
+          "DL": "01070000",
+          "UL": "01070000"
+        },
+        {
+          "band": 8,
+          "CAP": "08000101",
+          "HW": "000b02",
+          "DL": "00050000",
+          "UL": "01060000"
+        },
+        {
+          "band": 28,
+          "CAP": "1c000000",
+          "HW": "000202",
+          "DL": "00050000",
+          "UL": "00050000"
+        },
+        {
+          "band": 77,
+          "CAP": "4d000101",
+          "HW": "010303",
+          "DL": "010a0100",
+          "UL": "010a0100"
+        },
+        {
+          "band": 78,
+          "CAP": "4e000101",
+          "HW": "010303",
+          "DL": "010a0100",
+          "UL": "010a0100"
+        },
+        {
+          "band": 79,
+          "CAP": "4f000101",
+          "HW": "010404",
+          "DL": "010a0000",
+          "UL": "010a0000"
+        }
+      ],
+      "SRS_HPUE_new_band_policy": "Original n3 FDD rows/original n77 TDD rows; not exact SDKantenna declarations",
+      "old_to_new_index": {
+        "0": 1,
+        "1": 6,
+        "2": 10,
+        "3": 12,
+        "4": 13,
+        "5": 14,
+        "6": 15,
+        "7": 16,
+        "8": 17,
+        "9": 18,
+        "10": 19,
+        "11": 20,
+        "12": 21,
+        "13": 22,
+        "14": 23,
+        "15": 24,
+        "16": 25,
+        "17": 26,
+        "18": 27,
+        "19": 28,
+        "20": 29,
+        "21": 30,
+        "22": 31,
+        "23": 32,
+        "24": 33,
+        "25": 34,
+        "26": 35,
+        "27": 36,
+        "28": 37,
+        "29": 38,
+        "30": 39,
+        "31": 40,
+        "32": 41,
+        "33": 42,
+        "34": 43,
+        "35": 44,
+        "36": 45,
+        "37": 46,
+        "38": 47,
+        "39": 48,
+        "40": 49,
+        "41": 50,
+        "42": 51,
+        "43": 52,
+        "44": 53,
+        "45": 54,
+        "46": 55,
+        "47": 56,
+        "48": 57,
+        "49": 58,
+        "50": 59,
+        "51": 60,
+        "52": 61,
+        "53": 62,
+        "54": 63,
+        "55": 64,
+        "56": 65,
+        "57": 66,
+        "58": 67,
+        "59": 68,
+        "60": 69,
+        "61": 70,
+        "62": 71,
+        "63": 72,
+        "64": 73
+      },
+      "group_mapping": [
+        {
+          "group": 0,
+          "old_start": 0,
+          "old_end": 4,
+          "new_start": 0,
+          "retained": 4
+        },
+        {
+          "group": 1,
+          "old_start": 4,
+          "old_end": 15,
+          "new_start": 13,
+          "retained": 11
+        },
+        {
+          "group": 2,
+          "old_start": 15,
+          "old_end": 22,
+          "new_start": 24,
+          "retained": 7
+        },
+        {
+          "group": 3,
+          "old_start": 22,
+          "old_end": 35,
+          "new_start": 31,
+          "retained": 13
+        },
+        {
+          "group": 4,
+          "old_start": 35,
+          "old_end": 44,
+          "new_start": 44,
+          "retained": 9
+        },
+        {
+          "group": 5,
+          "old_start": 44,
+          "old_end": 56,
+          "new_start": 53,
+          "retained": 12
+        },
+        {
+          "group": 6,
+          "old_start": 56,
+          "old_end": 65,
+          "new_start": 65,
+          "retained": 1
+        }
+      ],
+      "allocations": {
+        "relocated_node0": {
+          "file": "0x2267f3c",
+          "size": 16
+        },
+        "last_new_node": {
+          "file": "0x2267f4c",
+          "size": 16
+        },
+        "last_new_info": {
+          "file": "0x2267f5c",
+          "size": 16
+        },
+        "new_band_keys": {
+          "file": "0x2267f6c",
+          "size": 36
+        },
+        "cap_directory": {
+          "file": "0x2267f90",
+          "size": 56
+        },
+        "cap_records": {
+          "file": "0x2267fc8",
+          "size": 52
+        },
+        "relocated_srs_child": {
+          "file": "0x2267ffc",
+          "size": 8
+        },
+        "relocated_hpue_child": {
+          "file": "0x2268004",
+          "size": 4
+        },
+        "new_dl_cap_objects": {
+          "file": "0x2268008",
+          "size": 4
+        },
+        "relocated_ul_objects": {
+          "file": "0x226800c",
+          "size": 4
+        },
+        "new_sdk_hw_records": {
+          "file": "0x2268010",
+          "size": 27
+        }
+      },
+      "original_band_param_bytes": 744,
+      "packed_original_band_bytes": 492,
+      "recovered_bytes": 252,
+      "allocated_bytes": 239,
+      "remaining_bytes": 13,
+      "patches": [
+        {
+          "offset": "0x2266184",
+          "old": "30bccd6a",
+          "new": "3cbccd6a",
+          "reason": "Preserve retained original node0 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266194",
+          "old": "34bccd6a",
+          "new": "60bccd6a",
+          "reason": "Preserve retained original node1 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22661a4",
+          "old": "38bccd6a",
+          "new": "40bccd6a",
+          "reason": "Preserve retained original node2 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22661b4",
+          "old": "3cbccd6a",
+          "new": "38bccd6a",
+          "reason": "Preserve retained original node3 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22661c4",
+          "old": "40bccd6a",
+          "new": "48bccd6a",
+          "reason": "Preserve retained original node4 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22661d4",
+          "old": "48bccd6a",
+          "new": "54bccd6a",
+          "reason": "Preserve retained original node5 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22661e4",
+          "old": "50bccd6a",
+          "new": "d4bdcd6a",
+          "reason": "Preserve retained original node6 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22661f4",
+          "old": "58bccd6a",
+          "new": "dcbdcd6a",
+          "reason": "Preserve retained original node7 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266204",
+          "old": "60bccd6a",
+          "new": "60bccd6a",
+          "reason": "Preserve retained original node8 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266214",
+          "old": "68bccd6a",
+          "new": "6cbccd6a",
+          "reason": "Preserve retained original node9 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266224",
+          "old": "70bccd6a",
+          "new": "84bccd6a",
+          "reason": "Preserve retained original node10 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266234",
+          "old": "78bccd6a",
+          "new": "e4bdcd6a",
+          "reason": "Preserve retained original node11 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266244",
+          "old": "80bccd6a",
+          "new": "ecbdcd6a",
+          "reason": "Preserve retained original node12 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266254",
+          "old": "88bccd6a",
+          "new": "bcbccd6a",
+          "reason": "Preserve retained original node13 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266264",
+          "old": "90bccd6a",
+          "new": "40bccd6a",
+          "reason": "Preserve retained original node14 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266274",
+          "old": "98bccd6a",
+          "new": "34bccd6a",
+          "reason": "Preserve retained original node15 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266284",
+          "old": "a0bccd6a",
+          "new": "58bccd6a",
+          "reason": "Preserve retained original node16 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266294",
+          "old": "a8bccd6a",
+          "new": "3cbccd6a",
+          "reason": "Preserve retained original node17 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22662a4",
+          "old": "b0bccd6a",
+          "new": "f4bdcd6a",
+          "reason": "Preserve retained original node18 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22662b4",
+          "old": "70bccd6a",
+          "new": "84bccd6a",
+          "reason": "Preserve retained original node19 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22662c4",
+          "old": "b8bccd6a",
+          "new": "fcbdcd6a",
+          "reason": "Preserve retained original node20 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22662d4",
+          "old": "b8bccd6a",
+          "new": "fcbdcd6a",
+          "reason": "Preserve retained original node21 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22662e4",
+          "old": "c0bccd6a",
+          "new": "a8bccd6a",
+          "reason": "Preserve retained original node22 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22662f4",
+          "old": "ccbccd6a",
+          "new": "b8bccd6a",
+          "reason": "Preserve retained original node23 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266304",
+          "old": "d8bccd6a",
+          "new": "d8bccd6a",
+          "reason": "Preserve retained original node24 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266314",
+          "old": "e4bccd6a",
+          "new": "04becd6a",
+          "reason": "Preserve retained original node25 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266324",
+          "old": "f0bccd6a",
+          "new": "10becd6a",
+          "reason": "Preserve retained original node26 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266334",
+          "old": "fcbccd6a",
+          "new": "30bccd6a",
+          "reason": "Preserve retained original node27 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266344",
+          "old": "08bdcd6a",
+          "new": "3cbccd6a",
+          "reason": "Preserve retained original node28 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266354",
+          "old": "14bdcd6a",
+          "new": "48bccd6a",
+          "reason": "Preserve retained original node29 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266364",
+          "old": "20bdcd6a",
+          "new": "54bccd6a",
+          "reason": "Preserve retained original node30 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266374",
+          "old": "2cbdcd6a",
+          "new": "08bdcd6a",
+          "reason": "Preserve retained original node31 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266384",
+          "old": "38bdcd6a",
+          "new": "18bdcd6a",
+          "reason": "Preserve retained original node32 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266394",
+          "old": "44bdcd6a",
+          "new": "28bdcd6a",
+          "reason": "Preserve retained original node33 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22663a4",
+          "old": "50bdcd6a",
+          "new": "60bccd6a",
+          "reason": "Preserve retained original node34 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22663b4",
+          "old": "5cbdcd6a",
+          "new": "6cbccd6a",
+          "reason": "Preserve retained original node35 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22663c4",
+          "old": "68bdcd6a",
+          "new": "78bccd6a",
+          "reason": "Preserve retained original node36 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22663d4",
+          "old": "74bdcd6a",
+          "new": "84bccd6a",
+          "reason": "Preserve retained original node37 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22663e4",
+          "old": "80bdcd6a",
+          "new": "90bccd6a",
+          "reason": "Preserve retained original node38 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22663f4",
+          "old": "8cbdcd6a",
+          "new": "9cbccd6a",
+          "reason": "Preserve retained original node39 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266404",
+          "old": "98bdcd6a",
+          "new": "1cbdcd6a",
+          "reason": "Preserve retained original node40 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266414",
+          "old": "a4bdcd6a",
+          "new": "bcbccd6a",
+          "reason": "Preserve retained original node41 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266424",
+          "old": "b0bdcd6a",
+          "new": "ccbccd6a",
+          "reason": "Preserve retained original node42 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266434",
+          "old": "bcbdcd6a",
+          "new": "fcbccd6a",
+          "reason": "Preserve retained original node43 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266444",
+          "old": "c8bdcd6a",
+          "new": "98bdcd6a",
+          "reason": "Preserve retained original node44 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266454",
+          "old": "d8bdcd6a",
+          "new": "acbdcd6a",
+          "reason": "Preserve retained original node45 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266464",
+          "old": "e8bdcd6a",
+          "new": "c0bdcd6a",
+          "reason": "Preserve retained original node46 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266474",
+          "old": "f8bdcd6a",
+          "new": "a8bccd6a",
+          "reason": "Preserve retained original node47 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266484",
+          "old": "08becd6a",
+          "new": "b8bccd6a",
+          "reason": "Preserve retained original node48 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266494",
+          "old": "18becd6a",
+          "new": "c8bccd6a",
+          "reason": "Preserve retained original node49 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22664a4",
+          "old": "28becd6a",
+          "new": "d8bccd6a",
+          "reason": "Preserve retained original node50 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22664b4",
+          "old": "38becd6a",
+          "new": "e8bccd6a",
+          "reason": "Preserve retained original node51 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22664c4",
+          "old": "48becd6a",
+          "new": "f8bccd6a",
+          "reason": "Preserve retained original node52 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22664d4",
+          "old": "58becd6a",
+          "new": "08bdcd6a",
+          "reason": "Preserve retained original node53 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22664e4",
+          "old": "68becd6a",
+          "new": "18bdcd6a",
+          "reason": "Preserve retained original node54 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22664f4",
+          "old": "78becd6a",
+          "new": "28bdcd6a",
+          "reason": "Preserve retained original node55 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2266504",
+          "old": "88becd6a",
+          "new": "38bdcd6a",
+          "reason": "Preserve retained original node56 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2268284",
+          "old": "9cc1cd6a",
+          "new": "ecbecd6a",
+          "reason": "Preserve UL capability object displaced by expanded DL capability directory"
+        },
+        {
+          "offset": "0x226828c",
+          "old": "0cc2cd6a08c2cd6a04c2cd6a00c2cd6afcc1cd6af8c1cd6af4c1cd6af0c1cd6aecc1cd6ae8c1cd6ae4c1cd6a0000000000060000",
+          "new": "0cc2cd6a08c2cd6a04c2cd6a00c2cd6afcc1cd6af8c1cd6af4c1cd6af0c1cd6aecc1cd6ae8c1cd6ae4c1cd6ae8becd6a00000000",
+          "reason": "Append missing exact-content DL capability payloads; preserve all existing DL entries"
+        },
+        {
+          "offset": "0x2266100",
+          "old": "000003000200000000000000f0a3cd6a",
+          "new": "000003000200000000000000f0a3cd6a",
+          "reason": "Reuse deleted CA node storage for new NR1 single band"
+        },
+        {
+          "offset": "0x2266510",
+          "old": "0400000098becd6a2c00000002b2cd6a",
+          "new": "010000004cbecd6a01000000f0becd6a",
+          "reason": "Reuse deleted CA info storage for new NR1 single band"
+        },
+        {
+          "offset": "0x2266110",
+          "old": "00000300020000000000000000a4cd6a",
+          "new": "00000300020000000000000000a4cd6a",
+          "reason": "Reuse deleted CA node storage for new NR5 single band"
+        },
+        {
+          "offset": "0x2266520",
+          "old": "04000000a8becd6a2c00000086b2cd6a",
+          "new": "0100000050becd6a01000000f3becd6a",
+          "reason": "Reuse deleted CA info storage for new NR5 single band"
+        },
+        {
+          "offset": "0x2266120",
+          "old": "00000300020000000000000010a4cd6a",
+          "new": "00000300020000000000000010a4cd6a",
+          "reason": "Reuse deleted CA node storage for new NR7 single band"
+        },
+        {
+          "offset": "0x2266530",
+          "old": "04000000b8becd6a2c0000000ab3cd6a",
+          "new": "0100000054becd6a01000000f6becd6a",
+          "reason": "Reuse deleted CA info storage for new NR7 single band"
+        },
+        {
+          "offset": "0x2266130",
+          "old": "00000300020000000000000020a4cd6a",
+          "new": "00000300020000000000000020a4cd6a",
+          "reason": "Reuse deleted CA node storage for new NR8 single band"
+        },
+        {
+          "offset": "0x2266540",
+          "old": "04000000c8becd6a2c0000008eb3cd6a",
+          "new": "0100000058becd6a01000000f9becd6a",
+          "reason": "Reuse deleted CA info storage for new NR8 single band"
+        },
+        {
+          "offset": "0x2266140",
+          "old": "00000300020000000000000030a4cd6a",
+          "new": "00000300020000000000000030a4cd6a",
+          "reason": "Reuse deleted CA node storage for new NR20 single band"
+        },
+        {
+          "offset": "0x2266550",
+          "old": "04000000d8becd6a2c00000012b4cd6a",
+          "new": "010000005cbecd6a01000000fcbecd6a",
+          "reason": "Reuse deleted CA info storage for new NR20 single band"
+        },
+        {
+          "offset": "0x2266150",
+          "old": "00000300020000000000000040a4cd6a",
+          "new": "00000300020000000000000040a4cd6a",
+          "reason": "Reuse deleted CA node storage for new NR38 single band"
+        },
+        {
+          "offset": "0x2266560",
+          "old": "04000000e8becd6ad800000096b4cd6a",
+          "new": "0100000060becd6a01000000ffbecd6a",
+          "reason": "Reuse deleted CA info storage for new NR38 single band"
+        },
+        {
+          "offset": "0x2266160",
+          "old": "00000300020000000000000050a4cd6a",
+          "new": "00000300020000000000000050a4cd6a",
+          "reason": "Reuse deleted CA node storage for new NR40 single band"
+        },
+        {
+          "offset": "0x2266570",
+          "old": "04000000f8becd6ad80000001eb7cd6a",
+          "new": "0100000064becd6a0100000002bfcd6a",
+          "reason": "Reuse deleted CA info storage for new NR40 single band"
+        },
+        {
+          "offset": "0x2266170",
+          "old": "00000300020000000000000060a4cd6a",
+          "new": "00000300020000000000000060a4cd6a",
+          "reason": "Reuse deleted CA node storage for new NR41 single band"
+        },
+        {
+          "offset": "0x2266580",
+          "old": "0400000008bfcd6ad8000000a6b9cd6a",
+          "new": "0100000068becd6a0100000005bfcd6a",
+          "reason": "Reuse deleted CA info storage for new NR41 single band"
+        },
+        {
+          "offset": "0x20012c0",
+          "old": "1cbfcd6a",
+          "new": "70becd6a",
+          "reason": "Select13-band capability directory; existing retained CAPrecords preserved"
+        },
+        {
+          "offset": "0x2265c68",
+          "old": "509ccd6a609ccd6a709ccd6a809ccd6a909ccd6aa09ccd6ab09ccd6ac09ccd6ad09ccd6ae09ccd6af09ccd6a009dcd6a109dcd6a209dcd6a309dcd6a409dcd6a509dcd6a609dcd6a709dcd6a809dcd6a909dcd6aa09dcd6ab09dcd6ac09dcd6ad09dcd6ae09dcd6af09dcd6a009ecd6a109ecd6a209ecd6a309ecd6a409ecd6a509ecd6a609ecd6a709ecd6a809ecd6a909ecd6aa09ecd6ab09ecd6ac09ecd6ad09ecd6ae09ecd6af09ecd6a009fcd6a109fcd6a209fcd6a309fcd6a409fcd6a509fcd6a609fcd6a709fcd6a809fcd6a909fcd6aa09fcd6ab09fcd6ac09fcd6ad09fcd6ae09fcd6af09fcd6a00a0cd6a10a0cd6a20a0cd6a30a0cd6a40a0cd6a50a0cd6a0000000000000300",
+          "new": "e09fcd6a1cbecd6af09fcd6a00a0cd6a10a0cd6a20a0cd6a609ccd6a30a0cd6a40a0cd6a50a0cd6a709ccd6a2cbecd6a809ccd6a909ccd6aa09ccd6ab09ccd6ac09ccd6ad09ccd6ae09ccd6af09ccd6a009dcd6a109dcd6a209dcd6a309dcd6a409dcd6a509dcd6a609dcd6a709dcd6a809dcd6a909dcd6aa09dcd6ab09dcd6ac09dcd6ad09dcd6ae09dcd6af09dcd6a009ecd6a109ecd6a209ecd6a309ecd6a409ecd6a509ecd6a609ecd6a709ecd6a809ecd6a909ecd6aa09ecd6ab09ecd6ac09ecd6ad09ecd6ae09ecd6af09ecd6a009fcd6a109fcd6a209fcd6a309fcd6a409fcd6a509fcd6a609fcd6a709fcd6a809fcd6a909fcd6aa09fcd6ab09fcd6ac09fcd6ad09fcd6a00000000",
+          "reason": "Insert9 single bands and remove final8 high-order CA entries; total node count grows by one"
+        },
+        {
+          "offset": "0x2298280",
+          "old": "0000000000000000f4c3d06aecc3d06a00000000e4c3d06a00000000dcc3d06a00000000d4c3d06accc3d06a00000000c4c3d06abcc3d06ab4c3d06aacc3d06aa4c3d06a9cc3d06a94c3d06a8cc3d06a84c3d06a7cc3d06a0000000074c3d06a6cc3d06a0000000064c3d06a5cc3d06a54c3d06a4cc3d06a44c3d06a000000003cc3d06a34c3d06a000000002cc3d06a24c3d06a1cc3d06a14c3d06a0cc3d06a04c3d06afcc2d06af4c2d06aecc2d06a00000000e4c2d06adcc2d06a00000000d4c2d06accc2d06ac4c2d06abcc2d06ab4c2d06a00000000acc2d06aa4c2d06a000000009cc2d06a94c2d06a8cc2d06a84c2d06a7cc2d06a74c2d06a6cc2d06a64c2d06afcc3d06a",
+          "new": "000000000000000000000000000000000000000000000000000000000000000000000000f4c3d06af4c3d06af4c3d06aecc3d06a00000000e4c3d06a00000000dcc3d06a00000000d4c3d06accc3d06a00000000c4c3d06abcc3d06ab4c3d06aacc3d06aa4c3d06a9cc3d06a94c3d06a8cc3d06a84c3d06a7cc3d06a0000000074c3d06a6cc3d06a0000000064c3d06a5cc3d06a54c3d06a4cc3d06a44c3d06a000000003cc3d06a34c3d06a000000002cc3d06a24c3d06a1cc3d06a14c3d06a0cc3d06a04c3d06afcc2d06af4c2d06aecc2d06a00000000e4c2d06adcc2d06a00000000d4c2d06accc2d06ac4c2d06abcc2d06ab4c2d06a00000000acc2d06aa4c2d06a00000000",
+          "reason": "Keep SRS rows synchronized; new FDD rows inherit original n3, new TDD rows inherit n77; omit removed CArows"
+        },
+        {
+          "offset": "0x22985f4",
+          "old": "0000000000000000a0c6d06a9cc6d06a0000000098c6d06a0000000094c6d06a0000000090c6d06a8cc6d06a0000000088c6d06a84c6d06a80c6d06a7cc6d06a78c6d06a74c6d06a70c6d06a6cc6d06a68c6d06a64c6d06a0000000060c6d06a5cc6d06a0000000058c6d06a54c6d06a50c6d06a4cc6d06a48c6d06a0000000044c6d06a40c6d06a000000003cc6d06a38c6d06a34c6d06a30c6d06a2cc6d06a28c6d06a24c6d06a20c6d06a1cc6d06a0000000018c6d06a14c6d06a0000000010c6d06a0cc6d06a08c6d06a04c6d06a00c6d06a00000000fcc5d06af8c5d06a00000000f4c5d06af0c5d06aecc5d06ae8c5d06ae4c5d06ae0c5d06adcc5d06ad8c5d06a02020400",
+          "new": "000000000000000000000000000000000000000000000000000000000cbfcd6a00000000a0c6d06aa0c6d06aa0c6d06a9cc6d06a0000000098c6d06a0000000094c6d06a0000000090c6d06a8cc6d06a0000000088c6d06a84c6d06a80c6d06a7cc6d06a78c6d06a74c6d06a70c6d06a6cc6d06a68c6d06a64c6d06a0000000060c6d06a5cc6d06a0000000058c6d06a54c6d06a50c6d06a4cc6d06a48c6d06a0000000044c6d06a40c6d06a000000003cc6d06a38c6d06a34c6d06a30c6d06a2cc6d06a28c6d06a24c6d06a20c6d06a1cc6d06a0000000018c6d06a14c6d06a0000000010c6d06a0cc6d06a08c6d06a04c6d06a00c6d06a00000000fcc5d06af8c5d06a00000000",
+          "reason": "Keep HPUE rows synchronized; new FDD rows inherit original n3, new TDD rows inherit n77; omit removed CArows"
+        },
+        {
+          "offset": "0x2265b88",
+          "old": "00000100020003000400050006000700080009000b000c000d000e000f000a001000110012001300140015001600170019001a001b001f002000220023002400280029002a0018001c001d001e0021002500260027002b002c002d002f003000310035003600380039003a003e003f002e0032003300340037003b003c003d0040000000",
+          "new": "00000100020003000400050006000700080009000a000b000c000d000e000f0010001100120014001500160017001800130019001a001b001c001d001e001f002000220023002400280029002b002c002d0031003200330021002500260027002a002e002f003000340035003600380039003a003e003f00410037003b003c003d004000",
+          "reason": "List13 singles first; preserve original retained CA preference order; use original2B alignment padding"
+        },
+        {
+          "offset": "0x2265c0c",
+          "old": "00110000001100000000000000220000001100000400000000220000002200000f00000000330000001100001600000000330000002200002300000000440000001100002c000000004400000022000038000000",
+          "new": "00110000001100000000000000220000001100000d00000000220000002200001800000000330000001100001f00000000330000002200002c000000004400000011000035000000004400000022000041000000",
+          "reason": "Preserve retained nonempty group starts; global groupcount synchronized when final4CC group is empty"
+        },
+        {
+          "offset": "0x2298538",
+          "old": "14000000",
+          "new": "1d000000",
+          "reason": "Remap existing UL TXswitch CAkey20 using retained-node index map"
+        },
+        {
+          "offset": "0x22680e0",
+          "old": "010000ff007f0000",
+          "new": "010000f000700000",
+          "reason": "n1 remains limited to original supported widths at most20MHz"
+        },
+        {
+          "offset": "0x2268060",
+          "old": "0100004000400000",
+          "new": "0100000000000000",
+          "reason": "n1 v1590 bandwidth extensions disabled"
+        },
+        {
+          "offset": "0x22680f8",
+          "old": "050000f800780000",
+          "new": "050000f000700000",
+          "reason": "NR5 normal BW masks limited to originally supported widths at most20MHz"
+        },
+        {
+          "offset": "0x2268108",
+          "old": "080000f000700000",
+          "new": "080000f000700000",
+          "reason": "NR8 normal BW masks limited to originally supported widths at most20MHz"
+        },
+        {
+          "offset": "0x2268168",
+          "old": "260000fe007e0000",
+          "new": "260000f000700000",
+          "reason": "NR38 normal BW masks limited to originally supported widths at most20MHz"
+        },
+        {
+          "offset": "0x2268180",
+          "old": "29000077c0770000",
+          "new": "2900007000700000",
+          "reason": "NR41 normal BW masks limited to originally supported widths at most20MHz"
+        },
+        {
+          "offset": "0x2268080",
+          "old": "0800002000200000",
+          "new": "0800002000200000",
+          "reason": "NR8 extended bandwidth masks disabled for20MHz trial"
+        },
+        {
+          "offset": "0x2268098",
+          "old": "2900000000900000",
+          "new": "2900000000000000",
+          "reason": "NR41 extended bandwidth masks disabled for20MHz trial"
+        },
+        {
+          "offset": "0x2267d50",
+          "old": "030000001c0000004d0000004f000000030000004d001100030011004d000000030000004f001100030011004f0000001c0000004d0011001c0011004d0000001c0000004d0000001c0000004f0011001c0011004f0000004d0000004d0011004d0000004f0011004d0011004f0000004d0000004f000000030000004d000000030000004f0000001c0000004f000000030000004d0011004d001100030011004d0000004d001100030000004d0000004d001100030000004d0011004f001100030011004d0000004f001100030011004d0011004f000000030000004d0000004f001100030000004d0011004f000000030011004d0000004f0000001c0000004d0011004d0011001c0011004d0000004d0011001c0000004d0000004d0011001c0000004d0011004f0011001c0011004d0000004f0011001c0011004d0011004f0000001c0000004d0000004f0011001c0000004d0011004f0000001c0011004d0000004f0000004d0000004d0011004d0011004d0000004d0011004f0011004d0011004d0011004f0000004d0000004d0011004f000000030000004d0011004d0011004d001100030011004d0000004d0011004d001100030000004d0000004d0011004d001100030000004d0011004d0011004f001100030011004d0000004d0011004f001100030011004d0011004d0011004f000000030000004d0000004d0011004f001100030000004d0011004d0011004f000000030011004d0000004d0011004f0000001c0000004d0011004d0011004d0011001c0011004d0000004d0011004d0011001c0000004d0000004d0011004d0011001c0000004d0011004d0011004f0011001c0011004d0000004d0011004f0011001c0011004d0011004d0011004f0000001c0000004d0000004d0011004f0011001c0000004d0011004d0011004f0000001c0011004d0000004d0011004f0000004d0000004d0011004d0011004f0011004d0011004d0011004d0011004f0000004d0000004d0011004d0011004f000000",
+          "new": "030011004d0011004f000000030000004d0000004f001100030000004d0011004f000000030011004d0000004f0000001c0000004d0011004f0011001c0011004d0000004f0011001c0011004d0011004f0000001c0000004d0000004f0011001c0000004d0011004f0000001c0011004d0000004f000000030000004d0011004d0011004f001100030011004d0000004d0011004f001100030011004d0011004d0011004f000000030000004d0000004d0011004f001100030000004d0011004d0011004f000000030011004d0000004d0011004f0000001c0000004d0011004d0011004d0011001c0011004d0000004d0011004d0011001c0000004d0000004d0011004d0011001c0000004d0011004d0011004f0011001c0011004d0000004d0011004f0011001c0011004d0011004d0011004f0000001c0000004d0000004d0011004f0011001c0000004d0011004d0011004f0000001c0011004d0000004d0011004f000000030000004d0011004d0011004d0011004f000000030011004d0000004d0011004d0011004f001100030000004d0000004d0011004d0011004f000000030000004f001100030011004f0000001c0000004f0011001c0011004f000000030000004f0000001c0000004f000000030000004d0011004f001100030011004d0000004f00110000000300020000000000000060a0cd6a0000030002000000000000003cbecd6a010000006cbecd6a0100000008bfcd6a01000000050000000700000008000000140000002600000028000000290000004e000000a8becd6aacbecd6ab0becd6ab4becd6ab8becd6abcbecd6ac0becd6ac4becd6ac8becd6accbecd6ad0becd6ad4becd6ad8becd6a000000000100010103000101050000010700000108000101140000011c0000002600010128000101290001014d0001014e0001014f000101fcc3d06a09010107020204000104000000060000000101000c0b000701000b02000c06010b0801030301030301030300020201000000000000000000",
+          "reason": "Pack retained band slices and allocate239 bytes metadata inside original744-byte band-param object"
+        },
+        {
+          "offset": "0x22680f0",
+          "old": "030000ff007f0000",
+          "new": "030000ff007f0000",
+          "reason": "Preserve tested NR7 band3 normal bandwidth row byte-for-byte"
+        },
+        {
+          "offset": "0x2268100",
+          "old": "070000ff007f0000",
+          "new": "070000f000700000",
+          "reason": "New NR7 normal bandwidth masks restricted to originally supported widths <=20MHz"
+        },
+        {
+          "offset": "0x2268130",
+          "old": "140000f000700000",
+          "new": "140000f000700000",
+          "reason": "New NR20 normal bandwidth masks restricted to originally supported widths <=20MHz"
+        },
+        {
+          "offset": "0x2268148",
+          "old": "1c0000f400740000",
+          "new": "1c0000f400740000",
+          "reason": "Preserve tested NR7 band28 normal bandwidth row byte-for-byte"
+        },
+        {
+          "offset": "0x2268070",
+          "old": "0300006000600000",
+          "new": "0300006000600000",
+          "reason": "Preserve tested NR7 band3 extended bandwidth row byte-for-byte"
+        },
+        {
+          "offset": "0x2268078",
+          "old": "0700002000200000",
+          "new": "0700000000000000",
+          "reason": "New NR7 extended masks disabled"
+        },
+        {
+          "offset": "0x2268090",
+          "old": "2800000000900000",
+          "new": "2800000000000000",
+          "reason": "New NR40 extended masks disabled"
+        },
+        {
+          "offset": "0x22680b8",
+          "old": "4d00000000900000",
+          "new": "4d00000000900000",
+          "reason": "Preserve tested NR7 band77 extended bandwidth row byte-for-byte"
+        },
+        {
+          "offset": "0x22680c0",
+          "old": "4e00000000900000",
+          "new": "4e00000000900000",
+          "reason": "Preserve tested NR7 band78 extended bandwidth row byte-for-byte"
+        },
+        {
+          "offset": "0x22680c8",
+          "old": "4f00000000100000",
+          "new": "4f00000000100000",
+          "reason": "Preserve tested NR7 band79 extended bandwidth row byte-for-byte"
+        }
+      ]
+    },
+    {
+      "profile": 1,
+      "bands": [
+        1,
+        3,
+        5,
+        7,
+        8,
+        20,
+        28,
+        38,
+        40,
+        41,
+        77,
+        78,
+        79
+      ],
+      "original_nodes": 63,
+      "new_nodes": 72,
+      "removed_original_ca_indices": [],
+      "removed_CA": [],
+      "reused_storage_inbound_proof": [
+        {
+          "index": 55,
+          "node_file": "0x2298d34",
+          "info_file": "0x2299124",
+          "active_node_refs": [
+            "0x22989a0"
+          ],
+          "active_info_refs": [
+            "0x2298d40"
+          ],
+          "full_image_overlay_collisions": []
+        },
+        {
+          "index": 56,
+          "node_file": "0x2298d44",
+          "info_file": "0x2299134",
+          "active_node_refs": [
+            "0x22989a4"
+          ],
+          "active_info_refs": [
+            "0x2298d50"
+          ],
+          "full_image_overlay_collisions": []
+        },
+        {
+          "index": 57,
+          "node_file": "0x2298d54",
+          "info_file": "0x2299144",
+          "active_node_refs": [
+            "0x22989a8"
+          ],
+          "active_info_refs": [
+            "0x2298d60"
+          ],
+          "full_image_overlay_collisions": []
+        },
+        {
+          "index": 58,
+          "node_file": "0x2298d64",
+          "info_file": "0x2299154",
+          "active_node_refs": [
+            "0x22989ac"
+          ],
+          "active_info_refs": [
+            "0x2298d70"
+          ],
+          "full_image_overlay_collisions": []
+        },
+        {
+          "index": 59,
+          "node_file": "0x2298d74",
+          "info_file": "0x2299164",
+          "active_node_refs": [
+            "0x22989b0"
+          ],
+          "active_info_refs": [
+            "0x2298d80"
+          ],
+          "full_image_overlay_collisions": []
+        },
+        {
+          "index": 60,
+          "node_file": "0x2298d84",
+          "info_file": "0x2299174",
+          "active_node_refs": [
+            "0x22989b4"
+          ],
+          "active_info_refs": [
+            "0x2298d90"
+          ],
+          "full_image_overlay_collisions": []
+        },
+        {
+          "index": 61,
+          "node_file": "0x2298d94",
+          "info_file": "0x2299184",
+          "active_node_refs": [
+            "0x22989b8"
+          ],
+          "active_info_refs": [
+            "0x2298da0"
+          ],
+          "full_image_overlay_collisions": []
+        },
+        {
+          "index": 62,
+          "node_file": "0x2298da4",
+          "info_file": "0x2299194",
+          "active_node_refs": [
+            "0x22989bc"
+          ],
+          "active_info_refs": [
+            "0x2298db0"
+          ],
+          "full_image_overlay_collisions": []
+        }
+      ],
+      "relocated_ul_objects": [
+        {
+          "old_file": "0x229b0dc",
+          "payload": "00090100",
+          "new_file": "0x229ae30",
+          "full_image_refs": [
+            "0x229b0a4"
+          ]
+        }
+      ],
+      "reclaimed_old_CAP_for_HW": null,
+      "new_band_hw_mapping": [
+        {
+          "band": 1,
+          "sdk_hw": "000101",
+          "local_hw": "000101",
+          "DL": "01070000",
+          "UL": "00070000",
+          "source": "preserved mrdc7_plan.json",
+          "node_file": "0x2298d34",
+          "info_file": "0x2299124",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f2c",
+              "CAP": "01000001",
+              "node_va": "0x6b284364",
+              "HW_va": "0x6b2ab3a4",
+              "HW": "000101",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 1,
+              "DL_object_va": "0x6b2b2240",
+              "DL": "01070000",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 1,
+              "UL_object_va": "0x6b2b21ec",
+              "UL": "00070000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b2160",
+              "CAP": "01000001",
+              "node_va": "0x6b2843a8",
+              "HW_va": "0x6b2ab548",
+              "HW": "000101",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 1,
+              "DL_object_va": "0x6b2b2474",
+              "DL": "01070000",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 1,
+              "UL_object_va": "0x6b2b2420",
+              "UL": "00070000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 5,
+          "sdk_hw": "000202",
+          "local_hw": "00070b",
+          "DL": "01040000",
+          "UL": "00030000",
+          "source": "true-schema direct SDK[6, 12]",
+          "node_file": "0x2298d44",
+          "info_file": "0x2299134",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f24",
+              "CAP": "05000001",
+              "node_va": "0x6b284384",
+              "HW_va": "0x6b2ab3a7",
+              "HW": "000202",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 2,
+              "DL_object_va": "0x6b2b223c",
+              "DL": "01040000",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 2,
+              "UL_object_va": "0x6b2b21e8",
+              "UL": "00030000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b2158",
+              "CAP": "05000001",
+              "node_va": "0x6b2843c8",
+              "HW_va": "0x6b2ab54b",
+              "HW": "000202",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 2,
+              "DL_object_va": "0x6b2b2470",
+              "DL": "01040000",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 2,
+              "UL_object_va": "0x6b2b241c",
+              "UL": "00030000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 7,
+          "sdk_hw": "000101",
+          "local_hw": "000101",
+          "DL": "01070000",
+          "UL": "00070000",
+          "source": "true-schema direct SDK[6, 12]",
+          "node_file": "0x2298d54",
+          "info_file": "0x2299144",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f20",
+              "CAP": "07000001",
+              "node_va": "0x6b284394",
+              "HW_va": "0x6b2ab3a4",
+              "HW": "000101",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 1,
+              "DL_object_va": "0x6b2b2240",
+              "DL": "01070000",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 1,
+              "UL_object_va": "0x6b2b21ec",
+              "UL": "00070000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b2154",
+              "CAP": "07000001",
+              "node_va": "0x6b2843d8",
+              "HW_va": "0x6b2ab548",
+              "HW": "000101",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 1,
+              "DL_object_va": "0x6b2b2474",
+              "DL": "01070000",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 1,
+              "UL_object_va": "0x6b2b2420",
+              "UL": "00070000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 8,
+          "sdk_hw": "000203",
+          "local_hw": "000b02",
+          "DL": "00050000",
+          "UL": "01060000",
+          "source": "preserved mrdc7_plan.json",
+          "node_file": "0x2298d64",
+          "info_file": "0x2299154",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f1c",
+              "CAP": "08000001",
+              "node_va": "0x6b2843a4",
+              "HW_va": "0x6b2ab3aa",
+              "HW": "000203",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 3,
+              "DL_object_va": "0x6b2b2238",
+              "DL": "01030000",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 2,
+              "UL_object_va": "0x6b2b21e8",
+              "UL": "00030000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b2150",
+              "CAP": "08000001",
+              "node_va": "0x6b2843e8",
+              "HW_va": "0x6b2ab54e",
+              "HW": "000203",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 3,
+              "DL_object_va": "0x6b2b246c",
+              "DL": "01030000",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 2,
+              "UL_object_va": "0x6b2b241c",
+              "UL": "00030000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 20,
+          "sdk_hw": "000203",
+          "local_hw": "000706",
+          "DL": "01030000",
+          "UL": "00030000",
+          "source": "true-schema direct SDK[6, 12]",
+          "node_file": "0x2298d74",
+          "info_file": "0x2299164",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f18",
+              "CAP": "14000001",
+              "node_va": "0x6b2843b4",
+              "HW_va": "0x6b2ab3aa",
+              "HW": "000203",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 3,
+              "DL_object_va": "0x6b2b2238",
+              "DL": "01030000",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 2,
+              "UL_object_va": "0x6b2b21e8",
+              "UL": "00030000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b214c",
+              "CAP": "14000001",
+              "node_va": "0x6b2843f8",
+              "HW_va": "0x6b2ab54e",
+              "HW": "000203",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 3,
+              "DL_object_va": "0x6b2b246c",
+              "DL": "01030000",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 2,
+              "UL_object_va": "0x6b2b241c",
+              "UL": "00030000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 38,
+          "sdk_hw": "010405",
+          "local_hw": "010b08",
+          "DL": "01060000",
+          "UL": "01060000",
+          "source": "true-schema direct SDK[6, 12]",
+          "node_file": "0x2298d84",
+          "info_file": "0x2299174",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f10",
+              "CAP": "26000101",
+              "node_va": "0x6b2843d4",
+              "HW_va": "0x6b2ab3b0",
+              "HW": "010405",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 5,
+              "DL_object_va": "0x6b2b2230",
+              "DL": "01060000",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 4,
+              "UL_object_va": "0x6b2b21e0",
+              "UL": "01060000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b2144",
+              "CAP": "26000101",
+              "node_va": "0x6b284418",
+              "HW_va": "0x6b2ab554",
+              "HW": "010405",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 5,
+              "DL_object_va": "0x6b2b2464",
+              "DL": "01060000",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 4,
+              "UL_object_va": "0x6b2b2414",
+              "UL": "01060000",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 40,
+          "sdk_hw": "010506",
+          "local_hw": "010303",
+          "DL": "010a0100",
+          "UL": "010a0100",
+          "source": "true-schema direct SDK[6, 12]",
+          "node_file": "0x2298d94",
+          "info_file": "0x2299184",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f0c",
+              "CAP": "28000101",
+              "node_va": "0x6b2843e4",
+              "HW_va": "0x6b2ab3b3",
+              "HW": "010506",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 6,
+              "DL_object_va": "0x6b2b222c",
+              "DL": "010a0100",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 5,
+              "UL_object_va": "0x6b2b21dc",
+              "UL": "010a0100",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b2140",
+              "CAP": "28000101",
+              "node_va": "0x6b284428",
+              "HW_va": "0x6b2ab557",
+              "HW": "010506",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 6,
+              "DL_object_va": "0x6b2b2460",
+              "DL": "010a0100",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 5,
+              "UL_object_va": "0x6b2b2410",
+              "UL": "010a0100",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 41,
+          "sdk_hw": "010506",
+          "local_hw": "010303",
+          "DL": "010a0100",
+          "UL": "010a0100",
+          "source": "true-schema direct SDK[6, 12]",
+          "node_file": "0x2298da4",
+          "info_file": "0x2299194",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f08",
+              "CAP": "29000101",
+              "node_va": "0x6b2843f4",
+              "HW_va": "0x6b2ab3b3",
+              "HW": "010506",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 6,
+              "DL_object_va": "0x6b2b222c",
+              "DL": "010a0100",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 5,
+              "UL_object_va": "0x6b2b21dc",
+              "UL": "010a0100",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b213c",
+              "CAP": "29000101",
+              "node_va": "0x6b284438",
+              "HW_va": "0x6b2ab557",
+              "HW": "010506",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 6,
+              "DL_object_va": "0x6b2b2460",
+              "DL": "010a0100",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 5,
+              "UL_object_va": "0x6b2b2410",
+              "UL": "010a0100",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        },
+        {
+          "band": 78,
+          "sdk_hw": "010506",
+          "local_hw": "010303",
+          "DL": "010a0100",
+          "UL": "010a0100",
+          "source": "preserved mrdc7_plan.json",
+          "node_file": "0x229ad70",
+          "info_file": "0x229ad80",
+          "native_source_evidence": [
+            {
+              "Set": 6,
+              "section": 425,
+              "CAP_va": "0x6b2b1f00",
+              "CAP": "4e000101",
+              "node_va": "0x6b284414",
+              "HW_va": "0x6b2ab3b3",
+              "HW": "010506",
+              "DL_directory_va": "0x6b2b2158",
+              "DL_index": 6,
+              "DL_object_va": "0x6b2b222c",
+              "DL": "010a0100",
+              "UL_directory_va": "0x6b2b2110",
+              "UL_index": 5,
+              "UL_object_va": "0x6b2b21dc",
+              "UL": "010a0100",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            },
+            {
+              "Set": 12,
+              "section": 431,
+              "CAP_va": "0x6b2b2134",
+              "CAP": "4e000101",
+              "node_va": "0x6b284458",
+              "HW_va": "0x6b2ab557",
+              "HW": "010506",
+              "DL_directory_va": "0x6b2b238c",
+              "DL_index": 6,
+              "DL_object_va": "0x6b2b2460",
+              "DL": "010a0100",
+              "UL_directory_va": "0x6b2b2344",
+              "UL_index": 5,
+              "UL_object_va": "0x6b2b2410",
+              "UL": "010a0100",
+              "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+            }
+          ],
+          "schema": "HW[1]=UL, HW[2]=DL"
+        }
+      ],
+      "original_single_hw_unchanged": true,
+      "preserved_prior_plan_single_semantics": [
+        {
+          "band": 1,
+          "CAP": "01000001",
+          "HW": "000101",
+          "DL": "01070000",
+          "UL": "00070000"
+        },
+        {
+          "band": 3,
+          "CAP": "03000001",
+          "HW": "000101",
+          "DL": "01070000",
+          "UL": "00070000"
+        },
+        {
+          "band": 8,
+          "CAP": "08000001",
+          "HW": "000b02",
+          "DL": "00050000",
+          "UL": "01060000"
+        },
+        {
+          "band": 28,
+          "CAP": "1c000000",
+          "HW": "000202",
+          "DL": "00050000",
+          "UL": "00050000"
+        },
+        {
+          "band": 77,
+          "CAP": "4d000101",
+          "HW": "010303",
+          "DL": "010a0100",
+          "UL": "010a0100"
+        },
+        {
+          "band": 78,
+          "CAP": "4e000101",
+          "HW": "010303",
+          "DL": "010a0100",
+          "UL": "010a0100"
+        },
+        {
+          "band": 79,
+          "CAP": "4f000101",
+          "HW": "010404",
+          "DL": "010a0000",
+          "UL": "010a0000"
+        }
+      ],
+      "SRS_HPUE_new_band_policy": "Original n3 FDD rows/original n77 TDD rows; not exact SDKantenna declarations",
+      "old_to_new_index": {
+        "0": 1,
+        "1": 6,
+        "2": 10,
+        "3": 12,
+        "4": 13,
+        "5": 14,
+        "6": 15,
+        "7": 16,
+        "8": 17,
+        "9": 18,
+        "10": 19,
+        "11": 20,
+        "12": 21,
+        "13": 22,
+        "14": 23,
+        "15": 24,
+        "16": 25,
+        "17": 26,
+        "18": 27,
+        "19": 28,
+        "20": 29,
+        "21": 30,
+        "22": 31,
+        "23": 32,
+        "24": 33,
+        "25": 34,
+        "26": 35,
+        "27": 36,
+        "28": 37,
+        "29": 38,
+        "30": 39,
+        "31": 40,
+        "32": 41,
+        "33": 42,
+        "34": 43,
+        "35": 44,
+        "36": 45,
+        "37": 46,
+        "38": 47,
+        "39": 48,
+        "40": 49,
+        "41": 50,
+        "42": 51,
+        "43": 52,
+        "44": 53,
+        "45": 54,
+        "46": 55,
+        "47": 56,
+        "48": 57,
+        "49": 58,
+        "50": 59,
+        "51": 60,
+        "52": 61,
+        "53": 62,
+        "54": 63,
+        "55": 64,
+        "56": 65,
+        "57": 66,
+        "58": 67,
+        "59": 68,
+        "60": 69,
+        "61": 70,
+        "62": 71
+      },
+      "group_mapping": [
+        {
+          "group": 0,
+          "old_start": 0,
+          "old_end": 4,
+          "new_start": 0,
+          "retained": 4
+        },
+        {
+          "group": 1,
+          "old_start": 4,
+          "old_end": 15,
+          "new_start": 13,
+          "retained": 11
+        },
+        {
+          "group": 2,
+          "old_start": 15,
+          "old_end": 20,
+          "new_start": 24,
+          "retained": 5
+        },
+        {
+          "group": 3,
+          "old_start": 20,
+          "old_end": 33,
+          "new_start": 29,
+          "retained": 13
+        },
+        {
+          "group": 4,
+          "old_start": 33,
+          "old_end": 42,
+          "new_start": 42,
+          "retained": 9
+        },
+        {
+          "group": 5,
+          "old_start": 42,
+          "old_end": 54,
+          "new_start": 51,
+          "retained": 12
+        },
+        {
+          "group": 6,
+          "old_start": 54,
+          "old_end": 63,
+          "new_start": 63,
+          "retained": 1
+        }
+      ],
+      "allocations": {
+        "relocated_node0": {
+          "file": "0x229ad60",
+          "size": 16
+        },
+        "last_new_node": {
+          "file": "0x229ad70",
+          "size": 16
+        },
+        "last_new_info": {
+          "file": "0x229ad80",
+          "size": 16
+        },
+        "new_band_keys": {
+          "file": "0x229ad90",
+          "size": 36
+        },
+        "cap_directory": {
+          "file": "0x229adb4",
+          "size": 56
+        },
+        "cap_records": {
+          "file": "0x229adec",
+          "size": 52
+        },
+        "relocated_srs_child": {
+          "file": "0x229ae20",
+          "size": 8
+        },
+        "relocated_hpue_child": {
+          "file": "0x229ae28",
+          "size": 4
+        },
+        "new_dl_cap_objects": {
+          "file": "0x229ae2c",
+          "size": 4
+        },
+        "relocated_ul_objects": {
+          "file": "0x229ae30",
+          "size": 4
+        },
+        "new_sdk_hw_records": {
+          "file": "0x229ae34",
+          "size": 27
+        }
+      },
+      "original_band_param_bytes": 744,
+      "packed_original_band_bytes": 492,
+      "recovered_bytes": 252,
+      "allocated_bytes": 239,
+      "remaining_bytes": 13,
+      "patches": [
+        {
+          "offset": "0x2298db8",
+          "old": "f4bdcd6a",
+          "new": "00becd6a",
+          "reason": "Preserve retained original node0 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298dc8",
+          "old": "f8bdcd6a",
+          "new": "24becd6a",
+          "reason": "Preserve retained original node1 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298dd8",
+          "old": "fcbdcd6a",
+          "new": "04becd6a",
+          "reason": "Preserve retained original node2 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298de8",
+          "old": "00becd6a",
+          "new": "fcbdcd6a",
+          "reason": "Preserve retained original node3 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298df8",
+          "old": "04becd6a",
+          "new": "0cbecd6a",
+          "reason": "Preserve retained original node4 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298e08",
+          "old": "0cbecd6a",
+          "new": "18becd6a",
+          "reason": "Preserve retained original node5 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298e18",
+          "old": "14becd6a",
+          "new": "98bfcd6a",
+          "reason": "Preserve retained original node6 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298e28",
+          "old": "1cbecd6a",
+          "new": "a0bfcd6a",
+          "reason": "Preserve retained original node7 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298e38",
+          "old": "24becd6a",
+          "new": "24becd6a",
+          "reason": "Preserve retained original node8 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298e48",
+          "old": "2cbecd6a",
+          "new": "30becd6a",
+          "reason": "Preserve retained original node9 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298e58",
+          "old": "34becd6a",
+          "new": "48becd6a",
+          "reason": "Preserve retained original node10 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298e68",
+          "old": "3cbecd6a",
+          "new": "a8bfcd6a",
+          "reason": "Preserve retained original node11 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298e78",
+          "old": "44becd6a",
+          "new": "b0bfcd6a",
+          "reason": "Preserve retained original node12 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298e88",
+          "old": "4cbecd6a",
+          "new": "80becd6a",
+          "reason": "Preserve retained original node13 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298e98",
+          "old": "54becd6a",
+          "new": "04becd6a",
+          "reason": "Preserve retained original node14 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298ea8",
+          "old": "5cbecd6a",
+          "new": "f8bdcd6a",
+          "reason": "Preserve retained original node15 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298eb8",
+          "old": "64becd6a",
+          "new": "1cbecd6a",
+          "reason": "Preserve retained original node16 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298ec8",
+          "old": "6cbecd6a",
+          "new": "00becd6a",
+          "reason": "Preserve retained original node17 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298ed8",
+          "old": "74becd6a",
+          "new": "b8bfcd6a",
+          "reason": "Preserve retained original node18 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298ee8",
+          "old": "7cbecd6a",
+          "new": "c0bfcd6a",
+          "reason": "Preserve retained original node19 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298ef8",
+          "old": "84becd6a",
+          "new": "6cbecd6a",
+          "reason": "Preserve retained original node20 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298f08",
+          "old": "90becd6a",
+          "new": "7cbecd6a",
+          "reason": "Preserve retained original node21 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298f18",
+          "old": "9cbecd6a",
+          "new": "9cbecd6a",
+          "reason": "Preserve retained original node22 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298f28",
+          "old": "a8becd6a",
+          "new": "c8bfcd6a",
+          "reason": "Preserve retained original node23 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298f38",
+          "old": "b4becd6a",
+          "new": "d4bfcd6a",
+          "reason": "Preserve retained original node24 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298f48",
+          "old": "c0becd6a",
+          "new": "f4bdcd6a",
+          "reason": "Preserve retained original node25 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298f58",
+          "old": "ccbecd6a",
+          "new": "00becd6a",
+          "reason": "Preserve retained original node26 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298f68",
+          "old": "d8becd6a",
+          "new": "0cbecd6a",
+          "reason": "Preserve retained original node27 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298f78",
+          "old": "e4becd6a",
+          "new": "18becd6a",
+          "reason": "Preserve retained original node28 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298f88",
+          "old": "f0becd6a",
+          "new": "ccbecd6a",
+          "reason": "Preserve retained original node29 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298f98",
+          "old": "fcbecd6a",
+          "new": "dcbecd6a",
+          "reason": "Preserve retained original node30 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298fa8",
+          "old": "08bfcd6a",
+          "new": "ecbecd6a",
+          "reason": "Preserve retained original node31 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298fb8",
+          "old": "14bfcd6a",
+          "new": "24becd6a",
+          "reason": "Preserve retained original node32 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298fc8",
+          "old": "20bfcd6a",
+          "new": "30becd6a",
+          "reason": "Preserve retained original node33 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298fd8",
+          "old": "2cbfcd6a",
+          "new": "3cbecd6a",
+          "reason": "Preserve retained original node34 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298fe8",
+          "old": "38bfcd6a",
+          "new": "48becd6a",
+          "reason": "Preserve retained original node35 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2298ff8",
+          "old": "44bfcd6a",
+          "new": "54becd6a",
+          "reason": "Preserve retained original node36 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2299008",
+          "old": "50bfcd6a",
+          "new": "60becd6a",
+          "reason": "Preserve retained original node37 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2299018",
+          "old": "5cbfcd6a",
+          "new": "e0becd6a",
+          "reason": "Preserve retained original node38 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2299028",
+          "old": "68bfcd6a",
+          "new": "80becd6a",
+          "reason": "Preserve retained original node39 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2299038",
+          "old": "74bfcd6a",
+          "new": "90becd6a",
+          "reason": "Preserve retained original node40 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2299048",
+          "old": "80bfcd6a",
+          "new": "c0becd6a",
+          "reason": "Preserve retained original node41 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2299058",
+          "old": "8cbfcd6a",
+          "new": "5cbfcd6a",
+          "reason": "Preserve retained original node42 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2299068",
+          "old": "9cbfcd6a",
+          "new": "70bfcd6a",
+          "reason": "Preserve retained original node43 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2299078",
+          "old": "acbfcd6a",
+          "new": "84bfcd6a",
+          "reason": "Preserve retained original node44 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2299088",
+          "old": "bcbfcd6a",
+          "new": "6cbecd6a",
+          "reason": "Preserve retained original node45 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2299098",
+          "old": "ccbfcd6a",
+          "new": "7cbecd6a",
+          "reason": "Preserve retained original node46 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22990a8",
+          "old": "dcbfcd6a",
+          "new": "8cbecd6a",
+          "reason": "Preserve retained original node47 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22990b8",
+          "old": "ecbfcd6a",
+          "new": "9cbecd6a",
+          "reason": "Preserve retained original node48 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22990c8",
+          "old": "fcbfcd6a",
+          "new": "acbecd6a",
+          "reason": "Preserve retained original node49 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22990d8",
+          "old": "0cc0cd6a",
+          "new": "bcbecd6a",
+          "reason": "Preserve retained original node50 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22990e8",
+          "old": "1cc0cd6a",
+          "new": "ccbecd6a",
+          "reason": "Preserve retained original node51 band slice in packed metadata"
+        },
+        {
+          "offset": "0x22990f8",
+          "old": "2cc0cd6a",
+          "new": "dcbecd6a",
+          "reason": "Preserve retained original node52 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2299108",
+          "old": "3cc0cd6a",
+          "new": "ecbecd6a",
+          "reason": "Preserve retained original node53 band slice in packed metadata"
+        },
+        {
+          "offset": "0x2299118",
+          "old": "4cc0cd6a",
+          "new": "fcbecd6a",
+          "reason": "Preserve retained original node54 band slice in packed metadata"
+        },
+        {
+          "offset": "0x229b0a4",
+          "old": "5cc3cd6a",
+          "new": "b0c0cd6a",
+          "reason": "Preserve UL capability object displaced by expanded DL capability directory"
+        },
+        {
+          "offset": "0x229b0ac",
+          "old": "c8c3cd6ac4c3cd6ac0c3cd6abcc3cd6ab8c3cd6ab4c3cd6ab0c3cd6aacc3cd6aa8c3cd6aa4c3cd6aa0c3cd6a0000000000090100",
+          "new": "c8c3cd6ac4c3cd6ac0c3cd6abcc3cd6ab8c3cd6ab4c3cd6ab0c3cd6aacc3cd6aa8c3cd6aa4c3cd6aa0c3cd6aacc0cd6a00000000",
+          "reason": "Append missing exact-content DL capability payloads; preserve all existing DL entries"
+        },
+        {
+          "offset": "0x2298d34",
+          "old": "000003000200000000000000a4a3cd6a",
+          "new": "000003000200000000000000a4a3cd6a",
+          "reason": "Reuse deleted CA node storage for new NR1 single band"
+        },
+        {
+          "offset": "0x2299124",
+          "old": "040000005cc0cd6a2c000000cab2cd6a",
+          "new": "0100000010c0cd6a01000000b4c0cd6a",
+          "reason": "Reuse deleted CA info storage for new NR1 single band"
+        },
+        {
+          "offset": "0x2298d44",
+          "old": "000003000200000000000000b4a3cd6a",
+          "new": "000003000200000000000000b4a3cd6a",
+          "reason": "Reuse deleted CA node storage for new NR5 single band"
+        },
+        {
+          "offset": "0x2299134",
+          "old": "040000006cc0cd6a2c0000004eb3cd6a",
+          "new": "0100000014c0cd6a01000000b7c0cd6a",
+          "reason": "Reuse deleted CA info storage for new NR5 single band"
+        },
+        {
+          "offset": "0x2298d54",
+          "old": "000003000200000000000000c4a3cd6a",
+          "new": "000003000200000000000000c4a3cd6a",
+          "reason": "Reuse deleted CA node storage for new NR7 single band"
+        },
+        {
+          "offset": "0x2299144",
+          "old": "040000007cc0cd6a2c000000d2b3cd6a",
+          "new": "0100000018c0cd6a01000000bac0cd6a",
+          "reason": "Reuse deleted CA info storage for new NR7 single band"
+        },
+        {
+          "offset": "0x2298d64",
+          "old": "000003000200000000000000d4a3cd6a",
+          "new": "000003000200000000000000d4a3cd6a",
+          "reason": "Reuse deleted CA node storage for new NR8 single band"
+        },
+        {
+          "offset": "0x2299154",
+          "old": "040000008cc0cd6a2c00000056b4cd6a",
+          "new": "010000001cc0cd6a01000000bdc0cd6a",
+          "reason": "Reuse deleted CA info storage for new NR8 single band"
+        },
+        {
+          "offset": "0x2298d74",
+          "old": "000003000200000000000000e4a3cd6a",
+          "new": "000003000200000000000000e4a3cd6a",
+          "reason": "Reuse deleted CA node storage for new NR20 single band"
+        },
+        {
+          "offset": "0x2299164",
+          "old": "040000009cc0cd6a2c000000dab4cd6a",
+          "new": "0100000020c0cd6a01000000c0c0cd6a",
+          "reason": "Reuse deleted CA info storage for new NR20 single band"
+        },
+        {
+          "offset": "0x2298d84",
+          "old": "000003000200000000000000f4a3cd6a",
+          "new": "000003000200000000000000f4a3cd6a",
+          "reason": "Reuse deleted CA node storage for new NR38 single band"
+        },
+        {
+          "offset": "0x2299174",
+          "old": "04000000acc0cd6af40000005eb5cd6a",
+          "new": "0100000024c0cd6a01000000c3c0cd6a",
+          "reason": "Reuse deleted CA info storage for new NR38 single band"
+        },
+        {
+          "offset": "0x2298d94",
+          "old": "00000300020000000000000004a4cd6a",
+          "new": "00000300020000000000000004a4cd6a",
+          "reason": "Reuse deleted CA node storage for new NR40 single band"
+        },
+        {
+          "offset": "0x2299184",
+          "old": "04000000bcc0cd6af40000003ab8cd6a",
+          "new": "0100000028c0cd6a01000000c6c0cd6a",
+          "reason": "Reuse deleted CA info storage for new NR40 single band"
+        },
+        {
+          "offset": "0x2298da4",
+          "old": "00000300020000000000000014a4cd6a",
+          "new": "00000300020000000000000014a4cd6a",
+          "reason": "Reuse deleted CA node storage for new NR41 single band"
+        },
+        {
+          "offset": "0x2299194",
+          "old": "04000000ccc0cd6af400000016bbcd6a",
+          "new": "010000002cc0cd6a01000000c9c0cd6a",
+          "reason": "Reuse deleted CA info storage for new NR41 single band"
+        },
+        {
+          "offset": "0x20012c4",
+          "old": "e0c0cd6a",
+          "new": "34c0cd6a",
+          "reason": "Select13-band capability directory; existing retained CAPrecords preserved"
+        },
+        {
+          "offset": "0x22988c4",
+          "old": "449ccd6a549ccd6a649ccd6a749ccd6a849ccd6a949ccd6aa49ccd6ab49ccd6ac49ccd6ad49ccd6ae49ccd6af49ccd6a049dcd6a149dcd6a249dcd6a349dcd6a449dcd6a549dcd6a649dcd6a749dcd6a849dcd6a949dcd6aa49dcd6ab49dcd6ac49dcd6ad49dcd6ae49dcd6af49dcd6a049ecd6a149ecd6a249ecd6a349ecd6a449ecd6a549ecd6a649ecd6a749ecd6a849ecd6a949ecd6aa49ecd6ab49ecd6ac49ecd6ad49ecd6ae49ecd6af49ecd6a049fcd6a149fcd6a249fcd6a349fcd6a449fcd6a549fcd6a649fcd6a749fcd6a849fcd6a949fcd6aa49fcd6ab49fcd6ac49fcd6ad49fcd6ae49fcd6af49fcd6a04a0cd6a14a0cd6a24a0cd6a0000000000000300",
+          "new": "b49fcd6ae0bfcd6ac49fcd6ad49fcd6ae49fcd6af49fcd6a549ccd6a04a0cd6a14a0cd6a24a0cd6a649ccd6af0bfcd6a749ccd6a849ccd6a949ccd6aa49ccd6ab49ccd6ac49ccd6ad49ccd6ae49ccd6af49ccd6a049dcd6a149dcd6a249dcd6a349dcd6a449dcd6a549dcd6a649dcd6a749dcd6a849dcd6a949dcd6aa49dcd6ab49dcd6ac49dcd6ad49dcd6ae49dcd6af49dcd6a049ecd6a149ecd6a249ecd6a349ecd6a449ecd6a549ecd6a649ecd6a749ecd6a849ecd6a949ecd6aa49ecd6ab49ecd6ac49ecd6ad49ecd6ae49ecd6af49ecd6a049fcd6a149fcd6a249fcd6a349fcd6a449fcd6a549fcd6a649fcd6a749fcd6a849fcd6a949fcd6aa49fcd6a00000000",
+          "reason": "Insert9 single bands and remove final8 high-order CA entries; total node count grows by one"
+        },
+        {
+          "offset": "0x22ca4f4",
+          "old": "0000000000000000f0b9d06ae8b9d06a00000000e0b9d06a00000000d8b9d06a00000000d0b9d06ac8b9d06a00000000c0b9d06ab8b9d06ab0b9d06aa8b9d06aa0b9d06a98b9d06a90b9d06a88b9d06a0000000080b9d06a78b9d06a0000000070b9d06a68b9d06a60b9d06a58b9d06a50b9d06a0000000048b9d06a40b9d06a0000000038b9d06a30b9d06a28b9d06a20b9d06a18b9d06a10b9d06a08b9d06a00b9d06af8b8d06a00000000f0b8d06ae8b8d06a00000000e0b8d06ad8b8d06ad0b8d06ac8b8d06ac0b8d06a00000000b8b8d06ab0b8d06a00000000a8b8d06aa0b8d06a98b8d06a90b8d06a88b8d06a80b8d06a78b8d06a70b8d06af8b9d06a",
+          "new": "000000000000000000000000000000000000000000000000000000000000000000000000f0b9d06af0b9d06af0b9d06ae8b9d06a00000000e0b9d06a00000000d8b9d06a00000000d0b9d06ac8b9d06a00000000c0b9d06ab8b9d06ab0b9d06aa8b9d06aa0b9d06a98b9d06a90b9d06a88b9d06a0000000080b9d06a78b9d06a0000000070b9d06a68b9d06a60b9d06a58b9d06a50b9d06a0000000048b9d06a40b9d06a0000000038b9d06a30b9d06a28b9d06a20b9d06a18b9d06a10b9d06a08b9d06a00b9d06af8b8d06a00000000f0b8d06ae8b8d06a00000000e0b8d06ad8b8d06ad0b8d06ac8b8d06ac0b8d06a00000000b8b8d06ab0b8d06a00000000",
+          "reason": "Keep SRS rows synchronized; new FDD rows inherit original n3, new TDD rows inherit n77; omit removed CArows"
+        },
+        {
+          "offset": "0x22ca824",
+          "old": "000000000000000060bcd06a5cbcd06a0000000058bcd06a0000000054bcd06a0000000050bcd06a4cbcd06a0000000048bcd06a44bcd06a40bcd06a3cbcd06a38bcd06a34bcd06a30bcd06a2cbcd06a0000000028bcd06a24bcd06a0000000020bcd06a1cbcd06a18bcd06a14bcd06a10bcd06a000000000cbcd06a08bcd06a0000000004bcd06a00bcd06afcbbd06af8bbd06af4bbd06af0bbd06aecbbd06ae8bbd06ae4bbd06a00000000e0bbd06adcbbd06a00000000d8bbd06ad4bbd06ad0bbd06accbbd06ac8bbd06a00000000c4bbd06ac0bbd06a00000000bcbbd06ab8bbd06ab4bbd06ab0bbd06aacbbd06aa8bbd06aa4bbd06aa0bbd06a02020100",
+          "new": "00000000000000000000000000000000000000000000000000000000d0c0cd6a0000000060bcd06a60bcd06a60bcd06a5cbcd06a0000000058bcd06a0000000054bcd06a0000000050bcd06a4cbcd06a0000000048bcd06a44bcd06a40bcd06a3cbcd06a38bcd06a34bcd06a30bcd06a2cbcd06a0000000028bcd06a24bcd06a0000000020bcd06a1cbcd06a18bcd06a14bcd06a10bcd06a000000000cbcd06a08bcd06a0000000004bcd06a00bcd06afcbbd06af8bbd06af4bbd06af0bbd06aecbbd06ae8bbd06ae4bbd06a00000000e0bbd06adcbbd06a00000000d8bbd06ad4bbd06ad0bbd06accbbd06ac8bbd06a00000000c4bbd06ac0bbd06a00000000",
+          "reason": "Keep HPUE rows synchronized; new FDD rows inherit original n3, new TDD rows inherit n77; omit removed CArows"
+        },
+        {
+          "offset": "0x22987e8",
+          "old": "00000100020003000400050006000700080009000b000c000d000e000f000a001000110012001300140015001700180019001d001e0020002100220026002700280016001a001b001c001f0023002400250029002a002b002d002e002f00330034003600370038003c003d002c00300031003200350039003a003b003e000000",
+          "new": "00000100020003000400050006000700080009000a000b000c000d000e000f0010001100120014001500160017001800130019001a001b001c001d001e002000210022002600270029002a002b002f00300031001f0023002400250028002c002d002e003200330034003600370038003c003d003f00350039003a003b003e00",
+          "reason": "List13 singles first; preserve original retained CA preference order; use original2B alignment padding"
+        },
+        {
+          "offset": "0x2298868",
+          "old": "00110000001100000000000000220000001100000400000000220000002200000f00000000330000001100001400000000330000002200002100000000440000001100002a000000004400000022000036000000",
+          "new": "00110000001100000000000000220000001100000d00000000220000002200001800000000330000001100001d00000000330000002200002a00000000440000001100003300000000440000002200003f000000",
+          "reason": "Preserve retained nonempty group starts; global groupcount synchronized when final4CC group is empty"
+        },
+        {
+          "offset": "0x229af04",
+          "old": "010000ff007f0000",
+          "new": "010000f000700000",
+          "reason": "n1 remains limited to original supported widths at most20MHz"
+        },
+        {
+          "offset": "0x229ae84",
+          "old": "0100004000400000",
+          "new": "0100000000000000",
+          "reason": "n1 v1590 bandwidth extensions disabled"
+        },
+        {
+          "offset": "0x229af1c",
+          "old": "050000f800780000",
+          "new": "050000f000700000",
+          "reason": "NR5 normal BW masks limited to originally supported widths at most20MHz"
+        },
+        {
+          "offset": "0x229af2c",
+          "old": "080000f000700000",
+          "new": "080000f000700000",
+          "reason": "NR8 normal BW masks limited to originally supported widths at most20MHz"
+        },
+        {
+          "offset": "0x229af8c",
+          "old": "260000fe007e0000",
+          "new": "260000f000700000",
+          "reason": "NR38 normal BW masks limited to originally supported widths at most20MHz"
+        },
+        {
+          "offset": "0x229afa4",
+          "old": "29000077c0770000",
+          "new": "2900007000700000",
+          "reason": "NR41 normal BW masks limited to originally supported widths at most20MHz"
+        },
+        {
+          "offset": "0x229aea4",
+          "old": "0800002000200000",
+          "new": "0800002000200000",
+          "reason": "NR8 extended bandwidth masks disabled for20MHz trial"
+        },
+        {
+          "offset": "0x229aebc",
+          "old": "2900000000900000",
+          "new": "2900000000000000",
+          "reason": "NR41 extended bandwidth masks disabled for20MHz trial"
+        },
+        {
+          "offset": "0x229ab74",
+          "old": "030000001c0000004d0000004f000000030000004d001100030011004d000000030000004f001100030011004f0000001c0000004d0011001c0011004d0000001c0000004d0000001c0000004f0011001c0011004f0000004d0000004d0011004d0000004f0011004d0011004f0000004d0000004f000000030000004d000000030000004f0000001c0000004f000000030000004d0011004d001100030011004d0000004d001100030000004d0000004d001100030000004d0011004f001100030011004d0000004f001100030011004d0011004f000000030000004d0000004f001100030000004d0011004f000000030011004d0000004f0000001c0000004d0011004d0011001c0011004d0000004d0011001c0000004d0000004d0011001c0000004d0011004f0011001c0011004d0000004f0011001c0011004d0011004f0000001c0000004d0000004f0011001c0000004d0011004f0000001c0011004d0000004f0000004d0000004d0011004d0011004d0000004d0011004f0011004d0011004d0011004f0000004d0000004d0011004f000000030000004d0011004d0011004d001100030011004d0000004d0011004d001100030000004d0000004d0011004d001100030000004d0011004d0011004f001100030011004d0000004d0011004f001100030011004d0011004d0011004f000000030000004d0000004d0011004f001100030000004d0011004d0011004f000000030011004d0000004d0011004f0000001c0000004d0011004d0011004d0011001c0011004d0000004d0011004d0011001c0000004d0000004d0011004d0011001c0000004d0011004d0011004f0011001c0011004d0000004d0011004f0011001c0011004d0011004d0011004f0000001c0000004d0000004d0011004f0011001c0000004d0011004d0011004f0000001c0011004d0000004d0011004f0000004d0000004d0011004d0011004f0011004d0011004d0011004d0011004f0000004d0000004d0011004d0011004f000000",
+          "new": "030011004d0011004f000000030000004d0000004f001100030000004d0011004f000000030011004d0000004f0000001c0000004d0011004f0011001c0011004d0000004f0011001c0011004d0011004f0000001c0000004d0000004f0011001c0000004d0011004f0000001c0011004d0000004f000000030000004d0011004d0011004f001100030011004d0000004d0011004f001100030011004d0011004d0011004f000000030000004d0000004d0011004f001100030000004d0011004d0011004f000000030011004d0000004d0011004f0000001c0000004d0011004d0011004d0011001c0011004d0000004d0011004d0011001c0000004d0000004d0011004d0011001c0000004d0011004d0011004f0011001c0011004d0000004d0011004f0011001c0011004d0011004d0011004f0000001c0000004d0000004d0011004f0011001c0000004d0011004d0011004f0000001c0011004d0000004d0011004f000000030000004d0011004d0011004d0011004f000000030011004d0000004d0011004d0011004f001100030000004d0000004d0011004d0011004f000000030000004f001100030011004f0000001c0000004f0011001c0011004f000000030000004f0000001c0000004f000000030000004d0011004f001100030011004d0000004f00110000000300020000000000000034a0cd6a00000300020000000000000000c0cd6a0100000030c0cd6a01000000ccc0cd6a01000000050000000700000008000000140000002600000028000000290000004e0000006cc0cd6a70c0cd6a74c0cd6a78c0cd6a7cc0cd6a80c0cd6a84c0cd6a88c0cd6a8cc0cd6a90c0cd6a94c0cd6a98c0cd6a9cc0cd6a000000000100000103000001050000010700000108000001140000011c0000002600010128000101290001014d0001014e0001014f000101f8b9d06a0901010702020100010400000009010000010100070b000101000b02000706010b0801030301030301030300020201000000000000000000",
+          "reason": "Pack retained band slices and allocate239 bytes metadata inside original744-byte band-param object"
+        },
+        {
+          "offset": "0x229af14",
+          "old": "030000ff007f0000",
+          "new": "030000ff007f0000",
+          "reason": "Preserve tested NR7 band3 normal bandwidth row byte-for-byte"
+        },
+        {
+          "offset": "0x229af24",
+          "old": "070000ff007f0000",
+          "new": "070000f000700000",
+          "reason": "New NR7 normal bandwidth masks restricted to originally supported widths <=20MHz"
+        },
+        {
+          "offset": "0x229af54",
+          "old": "140000f000700000",
+          "new": "140000f000700000",
+          "reason": "New NR20 normal bandwidth masks restricted to originally supported widths <=20MHz"
+        },
+        {
+          "offset": "0x229af6c",
+          "old": "1c0000f400740000",
+          "new": "1c0000f400740000",
+          "reason": "Preserve tested NR7 band28 normal bandwidth row byte-for-byte"
+        },
+        {
+          "offset": "0x229ae94",
+          "old": "0300006000600000",
+          "new": "0300006000600000",
+          "reason": "Preserve tested NR7 band3 extended bandwidth row byte-for-byte"
+        },
+        {
+          "offset": "0x229ae9c",
+          "old": "0700002000200000",
+          "new": "0700000000000000",
+          "reason": "New NR7 extended masks disabled"
+        },
+        {
+          "offset": "0x229aeb4",
+          "old": "2800000000900000",
+          "new": "2800000000000000",
+          "reason": "New NR40 extended masks disabled"
+        },
+        {
+          "offset": "0x229aedc",
+          "old": "4d00000000900000",
+          "new": "4d00000000900000",
+          "reason": "Preserve tested NR7 band77 extended bandwidth row byte-for-byte"
+        },
+        {
+          "offset": "0x229aee4",
+          "old": "4e00000000900000",
+          "new": "4e00000000900000",
+          "reason": "Preserve tested NR7 band78 extended bandwidth row byte-for-byte"
+        },
+        {
+          "offset": "0x229aeec",
+          "old": "4f00000000100000",
+          "new": "4f00000000100000",
+          "reason": "Preserve tested NR7 band79 extended bandwidth row byte-for-byte"
+        }
+      ]
+    }
+  ],
+  "preserved_prior_plan": "mrdc7_plan.json",
+  "true_hw_schema": "HW[0]=mode; HW[1] indexes ULroot20012e0/e4; HW[2] indexes DLroot20012e8/ec",
+  "native_source_evidence": {
+    "1": [
+      {
+        "Set": 6,
+        "section": 425,
+        "CAP_va": "0x6b2b1f2c",
+        "CAP": "01000001",
+        "node_va": "0x6b284364",
+        "HW_va": "0x6b2ab3a4",
+        "HW": "000101",
+        "DL_directory_va": "0x6b2b2158",
+        "DL_index": 1,
+        "DL_object_va": "0x6b2b2240",
+        "DL": "01070000",
+        "UL_directory_va": "0x6b2b2110",
+        "UL_index": 1,
+        "UL_object_va": "0x6b2b21ec",
+        "UL": "00070000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      },
+      {
+        "Set": 12,
+        "section": 431,
+        "CAP_va": "0x6b2b2160",
+        "CAP": "01000001",
+        "node_va": "0x6b2843a8",
+        "HW_va": "0x6b2ab548",
+        "HW": "000101",
+        "DL_directory_va": "0x6b2b238c",
+        "DL_index": 1,
+        "DL_object_va": "0x6b2b2474",
+        "DL": "01070000",
+        "UL_directory_va": "0x6b2b2344",
+        "UL_index": 1,
+        "UL_object_va": "0x6b2b2420",
+        "UL": "00070000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      }
+    ],
+    "3": [
+      {
+        "Set": 6,
+        "section": 425,
+        "CAP_va": "0x6b2b1f28",
+        "CAP": "03000001",
+        "node_va": "0x6b284374",
+        "HW_va": "0x6b2ab3a4",
+        "HW": "000101",
+        "DL_directory_va": "0x6b2b2158",
+        "DL_index": 1,
+        "DL_object_va": "0x6b2b2240",
+        "DL": "01070000",
+        "UL_directory_va": "0x6b2b2110",
+        "UL_index": 1,
+        "UL_object_va": "0x6b2b21ec",
+        "UL": "00070000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      },
+      {
+        "Set": 12,
+        "section": 431,
+        "CAP_va": "0x6b2b215c",
+        "CAP": "03000001",
+        "node_va": "0x6b2843b8",
+        "HW_va": "0x6b2ab548",
+        "HW": "000101",
+        "DL_directory_va": "0x6b2b238c",
+        "DL_index": 1,
+        "DL_object_va": "0x6b2b2474",
+        "DL": "01070000",
+        "UL_directory_va": "0x6b2b2344",
+        "UL_index": 1,
+        "UL_object_va": "0x6b2b2420",
+        "UL": "00070000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      }
+    ],
+    "5": [
+      {
+        "Set": 6,
+        "section": 425,
+        "CAP_va": "0x6b2b1f24",
+        "CAP": "05000001",
+        "node_va": "0x6b284384",
+        "HW_va": "0x6b2ab3a7",
+        "HW": "000202",
+        "DL_directory_va": "0x6b2b2158",
+        "DL_index": 2,
+        "DL_object_va": "0x6b2b223c",
+        "DL": "01040000",
+        "UL_directory_va": "0x6b2b2110",
+        "UL_index": 2,
+        "UL_object_va": "0x6b2b21e8",
+        "UL": "00030000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      },
+      {
+        "Set": 12,
+        "section": 431,
+        "CAP_va": "0x6b2b2158",
+        "CAP": "05000001",
+        "node_va": "0x6b2843c8",
+        "HW_va": "0x6b2ab54b",
+        "HW": "000202",
+        "DL_directory_va": "0x6b2b238c",
+        "DL_index": 2,
+        "DL_object_va": "0x6b2b2470",
+        "DL": "01040000",
+        "UL_directory_va": "0x6b2b2344",
+        "UL_index": 2,
+        "UL_object_va": "0x6b2b241c",
+        "UL": "00030000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      }
+    ],
+    "7": [
+      {
+        "Set": 6,
+        "section": 425,
+        "CAP_va": "0x6b2b1f20",
+        "CAP": "07000001",
+        "node_va": "0x6b284394",
+        "HW_va": "0x6b2ab3a4",
+        "HW": "000101",
+        "DL_directory_va": "0x6b2b2158",
+        "DL_index": 1,
+        "DL_object_va": "0x6b2b2240",
+        "DL": "01070000",
+        "UL_directory_va": "0x6b2b2110",
+        "UL_index": 1,
+        "UL_object_va": "0x6b2b21ec",
+        "UL": "00070000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      },
+      {
+        "Set": 12,
+        "section": 431,
+        "CAP_va": "0x6b2b2154",
+        "CAP": "07000001",
+        "node_va": "0x6b2843d8",
+        "HW_va": "0x6b2ab548",
+        "HW": "000101",
+        "DL_directory_va": "0x6b2b238c",
+        "DL_index": 1,
+        "DL_object_va": "0x6b2b2474",
+        "DL": "01070000",
+        "UL_directory_va": "0x6b2b2344",
+        "UL_index": 1,
+        "UL_object_va": "0x6b2b2420",
+        "UL": "00070000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      }
+    ],
+    "8": [
+      {
+        "Set": 6,
+        "section": 425,
+        "CAP_va": "0x6b2b1f1c",
+        "CAP": "08000001",
+        "node_va": "0x6b2843a4",
+        "HW_va": "0x6b2ab3aa",
+        "HW": "000203",
+        "DL_directory_va": "0x6b2b2158",
+        "DL_index": 3,
+        "DL_object_va": "0x6b2b2238",
+        "DL": "01030000",
+        "UL_directory_va": "0x6b2b2110",
+        "UL_index": 2,
+        "UL_object_va": "0x6b2b21e8",
+        "UL": "00030000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      },
+      {
+        "Set": 12,
+        "section": 431,
+        "CAP_va": "0x6b2b2150",
+        "CAP": "08000001",
+        "node_va": "0x6b2843e8",
+        "HW_va": "0x6b2ab54e",
+        "HW": "000203",
+        "DL_directory_va": "0x6b2b238c",
+        "DL_index": 3,
+        "DL_object_va": "0x6b2b246c",
+        "DL": "01030000",
+        "UL_directory_va": "0x6b2b2344",
+        "UL_index": 2,
+        "UL_object_va": "0x6b2b241c",
+        "UL": "00030000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      }
+    ],
+    "20": [
+      {
+        "Set": 6,
+        "section": 425,
+        "CAP_va": "0x6b2b1f18",
+        "CAP": "14000001",
+        "node_va": "0x6b2843b4",
+        "HW_va": "0x6b2ab3aa",
+        "HW": "000203",
+        "DL_directory_va": "0x6b2b2158",
+        "DL_index": 3,
+        "DL_object_va": "0x6b2b2238",
+        "DL": "01030000",
+        "UL_directory_va": "0x6b2b2110",
+        "UL_index": 2,
+        "UL_object_va": "0x6b2b21e8",
+        "UL": "00030000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      },
+      {
+        "Set": 12,
+        "section": 431,
+        "CAP_va": "0x6b2b214c",
+        "CAP": "14000001",
+        "node_va": "0x6b2843f8",
+        "HW_va": "0x6b2ab54e",
+        "HW": "000203",
+        "DL_directory_va": "0x6b2b238c",
+        "DL_index": 3,
+        "DL_object_va": "0x6b2b246c",
+        "DL": "01030000",
+        "UL_directory_va": "0x6b2b2344",
+        "UL_index": 2,
+        "UL_object_va": "0x6b2b241c",
+        "UL": "00030000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      }
+    ],
+    "28": [
+      {
+        "Set": 6,
+        "section": 425,
+        "CAP_va": "0x6b2b1f14",
+        "CAP": "1c000001",
+        "node_va": "0x6b2843c4",
+        "HW_va": "0x6b2ab3ad",
+        "HW": "000304",
+        "DL_directory_va": "0x6b2b2158",
+        "DL_index": 4,
+        "DL_object_va": "0x6b2b2234",
+        "DL": "01050000",
+        "UL_directory_va": "0x6b2b2110",
+        "UL_index": 3,
+        "UL_object_va": "0x6b2b21e4",
+        "UL": "00050000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      },
+      {
+        "Set": 12,
+        "section": 431,
+        "CAP_va": "0x6b2b2148",
+        "CAP": "1c000001",
+        "node_va": "0x6b284408",
+        "HW_va": "0x6b2ab551",
+        "HW": "000304",
+        "DL_directory_va": "0x6b2b238c",
+        "DL_index": 4,
+        "DL_object_va": "0x6b2b2468",
+        "DL": "01050000",
+        "UL_directory_va": "0x6b2b2344",
+        "UL_index": 3,
+        "UL_object_va": "0x6b2b2418",
+        "UL": "00050000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      }
+    ],
+    "38": [
+      {
+        "Set": 6,
+        "section": 425,
+        "CAP_va": "0x6b2b1f10",
+        "CAP": "26000101",
+        "node_va": "0x6b2843d4",
+        "HW_va": "0x6b2ab3b0",
+        "HW": "010405",
+        "DL_directory_va": "0x6b2b2158",
+        "DL_index": 5,
+        "DL_object_va": "0x6b2b2230",
+        "DL": "01060000",
+        "UL_directory_va": "0x6b2b2110",
+        "UL_index": 4,
+        "UL_object_va": "0x6b2b21e0",
+        "UL": "01060000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      },
+      {
+        "Set": 12,
+        "section": 431,
+        "CAP_va": "0x6b2b2144",
+        "CAP": "26000101",
+        "node_va": "0x6b284418",
+        "HW_va": "0x6b2ab554",
+        "HW": "010405",
+        "DL_directory_va": "0x6b2b238c",
+        "DL_index": 5,
+        "DL_object_va": "0x6b2b2464",
+        "DL": "01060000",
+        "UL_directory_va": "0x6b2b2344",
+        "UL_index": 4,
+        "UL_object_va": "0x6b2b2414",
+        "UL": "01060000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      }
+    ],
+    "40": [
+      {
+        "Set": 6,
+        "section": 425,
+        "CAP_va": "0x6b2b1f0c",
+        "CAP": "28000101",
+        "node_va": "0x6b2843e4",
+        "HW_va": "0x6b2ab3b3",
+        "HW": "010506",
+        "DL_directory_va": "0x6b2b2158",
+        "DL_index": 6,
+        "DL_object_va": "0x6b2b222c",
+        "DL": "010a0100",
+        "UL_directory_va": "0x6b2b2110",
+        "UL_index": 5,
+        "UL_object_va": "0x6b2b21dc",
+        "UL": "010a0100",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      },
+      {
+        "Set": 12,
+        "section": 431,
+        "CAP_va": "0x6b2b2140",
+        "CAP": "28000101",
+        "node_va": "0x6b284428",
+        "HW_va": "0x6b2ab557",
+        "HW": "010506",
+        "DL_directory_va": "0x6b2b238c",
+        "DL_index": 6,
+        "DL_object_va": "0x6b2b2460",
+        "DL": "010a0100",
+        "UL_directory_va": "0x6b2b2344",
+        "UL_index": 5,
+        "UL_object_va": "0x6b2b2410",
+        "UL": "010a0100",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      }
+    ],
+    "41": [
+      {
+        "Set": 6,
+        "section": 425,
+        "CAP_va": "0x6b2b1f08",
+        "CAP": "29000101",
+        "node_va": "0x6b2843f4",
+        "HW_va": "0x6b2ab3b3",
+        "HW": "010506",
+        "DL_directory_va": "0x6b2b2158",
+        "DL_index": 6,
+        "DL_object_va": "0x6b2b222c",
+        "DL": "010a0100",
+        "UL_directory_va": "0x6b2b2110",
+        "UL_index": 5,
+        "UL_object_va": "0x6b2b21dc",
+        "UL": "010a0100",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      },
+      {
+        "Set": 12,
+        "section": 431,
+        "CAP_va": "0x6b2b213c",
+        "CAP": "29000101",
+        "node_va": "0x6b284438",
+        "HW_va": "0x6b2ab557",
+        "HW": "010506",
+        "DL_directory_va": "0x6b2b238c",
+        "DL_index": 6,
+        "DL_object_va": "0x6b2b2460",
+        "DL": "010a0100",
+        "UL_directory_va": "0x6b2b2344",
+        "UL_index": 5,
+        "UL_object_va": "0x6b2b2410",
+        "UL": "010a0100",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      }
+    ],
+    "77": [
+      {
+        "Set": 6,
+        "section": 425,
+        "CAP_va": "0x6b2b1f04",
+        "CAP": "4d000101",
+        "node_va": "0x6b284404",
+        "HW_va": "0x6b2ab3b3",
+        "HW": "010506",
+        "DL_directory_va": "0x6b2b2158",
+        "DL_index": 6,
+        "DL_object_va": "0x6b2b222c",
+        "DL": "010a0100",
+        "UL_directory_va": "0x6b2b2110",
+        "UL_index": 5,
+        "UL_object_va": "0x6b2b21dc",
+        "UL": "010a0100",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      },
+      {
+        "Set": 12,
+        "section": 431,
+        "CAP_va": "0x6b2b2138",
+        "CAP": "4d000101",
+        "node_va": "0x6b284448",
+        "HW_va": "0x6b2ab557",
+        "HW": "010506",
+        "DL_directory_va": "0x6b2b238c",
+        "DL_index": 6,
+        "DL_object_va": "0x6b2b2460",
+        "DL": "010a0100",
+        "UL_directory_va": "0x6b2b2344",
+        "UL_index": 5,
+        "UL_object_va": "0x6b2b2410",
+        "UL": "010a0100",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      }
+    ],
+    "78": [
+      {
+        "Set": 6,
+        "section": 425,
+        "CAP_va": "0x6b2b1f00",
+        "CAP": "4e000101",
+        "node_va": "0x6b284414",
+        "HW_va": "0x6b2ab3b3",
+        "HW": "010506",
+        "DL_directory_va": "0x6b2b2158",
+        "DL_index": 6,
+        "DL_object_va": "0x6b2b222c",
+        "DL": "010a0100",
+        "UL_directory_va": "0x6b2b2110",
+        "UL_index": 5,
+        "UL_object_va": "0x6b2b21dc",
+        "UL": "010a0100",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      },
+      {
+        "Set": 12,
+        "section": 431,
+        "CAP_va": "0x6b2b2134",
+        "CAP": "4e000101",
+        "node_va": "0x6b284458",
+        "HW_va": "0x6b2ab557",
+        "HW": "010506",
+        "DL_directory_va": "0x6b2b238c",
+        "DL_index": 6,
+        "DL_object_va": "0x6b2b2460",
+        "DL": "010a0100",
+        "UL_directory_va": "0x6b2b2344",
+        "UL_index": 5,
+        "UL_object_va": "0x6b2b2410",
+        "UL": "010a0100",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      }
+    ],
+    "79": [
+      {
+        "Set": 6,
+        "section": 425,
+        "CAP_va": "0x6b2b1efc",
+        "CAP": "4f000101",
+        "node_va": "0x6b284424",
+        "HW_va": "0x6b2ab3b6",
+        "HW": "010607",
+        "DL_directory_va": "0x6b2b2158",
+        "DL_index": 7,
+        "DL_object_va": "0x6b2b2228",
+        "DL": "010a0000",
+        "UL_directory_va": "0x6b2b2110",
+        "UL_index": 6,
+        "UL_object_va": "0x6b2b21d8",
+        "UL": "010a0000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      },
+      {
+        "Set": 12,
+        "section": 431,
+        "CAP_va": "0x6b2b2130",
+        "CAP": "4f000101",
+        "node_va": "0x6b284468",
+        "HW_va": "0x6b2ab55a",
+        "HW": "010607",
+        "DL_directory_va": "0x6b2b238c",
+        "DL_index": 7,
+        "DL_object_va": "0x6b2b245c",
+        "DL": "010a0000",
+        "UL_directory_va": "0x6b2b2344",
+        "UL_index": 6,
+        "UL_object_va": "0x6b2b240c",
+        "UL": "010a0000",
+        "schema": "HW[0]=mode; HW[1]=UL index; HW[2]=DL index"
+      }
+    ]
+  }
+}

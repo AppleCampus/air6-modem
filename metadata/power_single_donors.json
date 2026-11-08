@@ -1,0 +1,462 @@
+[
+  {
+    "profile": 0,
+    "SDK_set": 6,
+    "entries": [
+      {
+        "band": 1,
+        "bandhex": "01000000",
+        "SDK_ordinal": 0,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 3,
+        "bandhex": "03000000",
+        "SDK_ordinal": 1,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 5,
+        "bandhex": "05000000",
+        "SDK_ordinal": 2,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 7,
+        "bandhex": "07000000",
+        "SDK_ordinal": 3,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 8,
+        "bandhex": "08000000",
+        "SDK_ordinal": 4,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 20,
+        "bandhex": "14000000",
+        "SDK_ordinal": 5,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 28,
+        "bandhex": "1c000000",
+        "SDK_ordinal": 6,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 38,
+        "bandhex": "26000000",
+        "SDK_ordinal": 7,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 40,
+        "bandhex": "28000000",
+        "SDK_ordinal": 8,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 41,
+        "bandhex": "29000000",
+        "SDK_ordinal": 9,
+        "power_group": 2,
+        "config": "000100ff000100ff000100ff"
+      },
+      {
+        "band": 77,
+        "bandhex": "4d000000",
+        "SDK_ordinal": 10,
+        "power_group": 2,
+        "config": "000100ff000100ff000100ff"
+      },
+      {
+        "band": 78,
+        "bandhex": "4e000000",
+        "SDK_ordinal": 11,
+        "power_group": 2,
+        "config": "000100ff000100ff000100ff"
+      },
+      {
+        "band": 79,
+        "bandhex": "4f000000",
+        "SDK_ordinal": 12,
+        "power_group": 2,
+        "config": "000100ff000100ff000100ff"
+      },
+      {
+        "band": 1,
+        "bandhex": "01000001",
+        "SDK_ordinal": 13,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 3,
+        "bandhex": "03000001",
+        "SDK_ordinal": 14,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 5,
+        "bandhex": "05000001",
+        "SDK_ordinal": 15,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 5,
+        "bandhex": "05000101",
+        "SDK_ordinal": 16,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 7,
+        "bandhex": "07000001",
+        "SDK_ordinal": 17,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 7,
+        "bandhex": "07000101",
+        "SDK_ordinal": 18,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 40,
+        "bandhex": "28000001",
+        "SDK_ordinal": 19,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 40,
+        "bandhex": "28000101",
+        "SDK_ordinal": 20,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 41,
+        "bandhex": "29000002",
+        "SDK_ordinal": 21,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 41,
+        "bandhex": "29000202",
+        "SDK_ordinal": 22,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 77,
+        "bandhex": "4d000002",
+        "SDK_ordinal": 23,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 77,
+        "bandhex": "4d000202",
+        "SDK_ordinal": 24,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 78,
+        "bandhex": "4e000002",
+        "SDK_ordinal": 25,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 78,
+        "bandhex": "4e000202",
+        "SDK_ordinal": 26,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 78,
+        "bandhex": "4e000003",
+        "SDK_ordinal": 27,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 78,
+        "bandhex": "4e000203",
+        "SDK_ordinal": 28,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 79,
+        "bandhex": "4f000002",
+        "SDK_ordinal": 29,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 79,
+        "bandhex": "4f000202",
+        "SDK_ordinal": 30,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      }
+    ]
+  },
+  {
+    "profile": 1,
+    "SDK_set": 12,
+    "entries": [
+      {
+        "band": 1,
+        "bandhex": "01000000",
+        "SDK_ordinal": 0,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 3,
+        "bandhex": "03000000",
+        "SDK_ordinal": 1,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 5,
+        "bandhex": "05000000",
+        "SDK_ordinal": 2,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 7,
+        "bandhex": "07000000",
+        "SDK_ordinal": 3,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 8,
+        "bandhex": "08000000",
+        "SDK_ordinal": 4,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 20,
+        "bandhex": "14000000",
+        "SDK_ordinal": 5,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 28,
+        "bandhex": "1c000000",
+        "SDK_ordinal": 6,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 38,
+        "bandhex": "26000000",
+        "SDK_ordinal": 7,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 40,
+        "bandhex": "28000000",
+        "SDK_ordinal": 8,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 41,
+        "bandhex": "29000000",
+        "SDK_ordinal": 9,
+        "power_group": 2,
+        "config": "000100ff000100ff000100ff"
+      },
+      {
+        "band": 77,
+        "bandhex": "4d000000",
+        "SDK_ordinal": 10,
+        "power_group": 2,
+        "config": "000100ff000100ff000100ff"
+      },
+      {
+        "band": 78,
+        "bandhex": "4e000000",
+        "SDK_ordinal": 11,
+        "power_group": 2,
+        "config": "000100ff000100ff000100ff"
+      },
+      {
+        "band": 79,
+        "bandhex": "4f000000",
+        "SDK_ordinal": 12,
+        "power_group": 2,
+        "config": "000100ff000100ff000100ff"
+      },
+      {
+        "band": 1,
+        "bandhex": "01000001",
+        "SDK_ordinal": 13,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 3,
+        "bandhex": "03000001",
+        "SDK_ordinal": 14,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 5,
+        "bandhex": "05000001",
+        "SDK_ordinal": 15,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 5,
+        "bandhex": "05000101",
+        "SDK_ordinal": 16,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 7,
+        "bandhex": "07000001",
+        "SDK_ordinal": 17,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 7,
+        "bandhex": "07000101",
+        "SDK_ordinal": 18,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 40,
+        "bandhex": "28000001",
+        "SDK_ordinal": 19,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 40,
+        "bandhex": "28000101",
+        "SDK_ordinal": 20,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 41,
+        "bandhex": "29000002",
+        "SDK_ordinal": 21,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 41,
+        "bandhex": "29000202",
+        "SDK_ordinal": 22,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 77,
+        "bandhex": "4d000002",
+        "SDK_ordinal": 23,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 77,
+        "bandhex": "4d000202",
+        "SDK_ordinal": 24,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 78,
+        "bandhex": "4e000002",
+        "SDK_ordinal": 25,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 78,
+        "bandhex": "4e000202",
+        "SDK_ordinal": 26,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 78,
+        "bandhex": "4e000003",
+        "SDK_ordinal": 27,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 78,
+        "bandhex": "4e000203",
+        "SDK_ordinal": 28,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 79,
+        "bandhex": "4f000002",
+        "SDK_ordinal": 29,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 79,
+        "bandhex": "4f000202",
+        "SDK_ordinal": 30,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 79,
+        "bandhex": "4f000003",
+        "SDK_ordinal": 31,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      },
+      {
+        "band": 79,
+        "bandhex": "4f000203",
+        "SDK_ordinal": 32,
+        "power_group": 0,
+        "config": "010000ff010000ff010000ff"
+      }
+    ]
+  }
+]
