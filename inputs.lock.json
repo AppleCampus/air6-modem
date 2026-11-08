@@ -1,0 +1,20 @@
+{
+  "official-p54-modem.img.gz": {
+    "bytes": 36746320,
+    "sha256": "6b6fbd2bae4dc073e60db1837f5b181a7f8a0b3d6c0c278de7cd91c057d31944",
+    "compressed_sha256": "22c975a29ef48ef53f2cdac46858686385c9a72a38ff511cd0ef44d06e9f6330"
+  },
+  "eu25-donor.img.gz": {
+    "bytes": 36729152,
+    "sha256": "d8c8847c4c57201f66ad9766be28275cedbf6e472dc52b40c16aab5ae7fd15fe",
+    "compressed_sha256": "868010817e6bc943806cc62fb90839ec158cb7a6b36a77084012f36e7ab018ea"
+  },
+  "eu25-donor-manifest.json": {
+    "sha256": "ef576adf0fec498fa4e560846c8ce294e9a1eeef96a638805d22f1bc49579aed"
+  },
+  "official-p54-dsp.bin.gz": {
+    "bytes": 6337760,
+    "sha256": "ff41c0601e47627751b144f5a061fd0f23208ebc6b70b320167b11bc59ab910c",
+    "compressed_sha256": "81501c5fd9757df4abaa177e04dce7944c7e9a369c70994cf74d9653ddde579d"
+  }
+}

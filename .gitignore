@@ -1,0 +1,17 @@
+*.img
+*.bin
+*.gz
+*.exe
+*.key
+*.pem
+__pycache__/
+metadata/eu25_metadata_draft.json
+fullband_eu_bucket_order_fix_20mhz/
+build/
+
+# Owner-approved pinned reference fixtures
+!metadata/sb_rudolf_v1.01.85_single/modem-verified.img
+!fullband_eu_bucket_order_fix_20mhz/
+fullband_eu_bucket_order_fix_20mhz/*
+!fullband_eu_bucket_order_fix_20mhz/modem.img
+!fullband_eu_bucket_order_fix_20mhz/manifest.json
