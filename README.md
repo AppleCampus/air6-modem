@@ -1,8 +1,8 @@
-# AIR6 P54 modem metadata research
+# SoftBank Air 6 (软银 Air6 / A775) — P54 modem research
 
 **English** | [简体中文](README.zh-CN.md)
 
-An authorization-free public subset of AIR6 P54 frequency metadata migration. No device-bound licensing logic, fingerprint implementation, authorization hooks, issuer keys, vendor signing SDK/tool, signer executable or ready-to-flash release package is included.
+An authorization-free public subset of P54 modem frequency metadata migration specifically for the **SoftBank Air 6 (软银 Air6 / A775)** home router, using the Quectel RG620T-SBK modem. No device-bound licensing logic, fingerprint implementation, authorization hooks, issuer keys, vendor signing SDK/tool, signer executable or ready-to-flash release package is included.
 
 ## CA is not supported yet — contributors welcome
 
