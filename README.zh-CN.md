@@ -69,3 +69,5 @@ python3 build.py
 ![5G n78 网络概览](docs/images/overview.png)
 
 ![SIM 注册与 APN](docs/images/cellular.png)
+
+- [蜂窝 API：CA、EN-DC 与小区测量说明](docs/cellular-telemetry-api.md)

@@ -69,3 +69,5 @@ The related [OpenWrt AIR6 project](https://github.com/hchyhchyxh/openwrt-air6) p
 ![5G n78 network overview](docs/images/overview.png)
 
 ![SIM registration and APN](docs/images/cellular.png)
+
+- [Cellular API telemetry: CA, EN-DC and cell measurements](docs/cellular-telemetry-api.md)
