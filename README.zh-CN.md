@@ -71,3 +71,5 @@ python3 build.py
 ![SIM 注册与 APN](docs/images/cellular.png)
 
 - [蜂窝 API：CA、EN-DC 与小区测量说明](docs/cellular-telemetry-api.md)
+
+- [P54 CA audit / 射频路由与状态检查（2026-11-11）](docs/ca-audit-20261111.md)

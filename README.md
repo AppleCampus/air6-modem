@@ -71,3 +71,5 @@ The related [OpenWrt AIR6 project](https://github.com/hchyhchyxh/openwrt-air6) p
 ![SIM registration and APN](docs/images/cellular.png)
 
 - [Cellular API telemetry: CA, EN-DC and cell measurements](docs/cellular-telemetry-api.md)
+
+- [P54 CA audit / 射频路由与状态检查（2026-11-11）](docs/ca-audit-20261111.md)
