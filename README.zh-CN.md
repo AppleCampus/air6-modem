@@ -73,3 +73,5 @@ python3 build.py
 - [蜂窝 API：CA、EN-DC 与小区测量说明](docs/cellular-telemetry-api.md)
 
 - [P54 CA audit / 射频路由与状态检查（2026-11-11）](docs/ca-audit-20261111.md)
+
+- [P54 native CA lookup / 原生消费者与 n78 复用核对](docs/ca-native-check-20261111.md)
